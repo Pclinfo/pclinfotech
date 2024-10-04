@@ -32,7 +32,7 @@ const Hero = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('http://localhost:4000/submitForm', {
+      const response = await fetch('https://pclinfotech-backend.onrender.com/submitForm', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

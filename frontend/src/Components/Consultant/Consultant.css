@@ -1,0 +1,149 @@
+.consultant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 60px;
+}
+.consultant h2{
+    font-weight: 800;
+    color: #004aad;
+    font-size: 26px;
+}
+.consultant p{
+    text-align: center;
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+    width: 1000px;
+}
+.consultant-business-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
+}
+.consultant-strategy-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+.business-opertions, .customer-marketing, .enterprise-technology-performance, .strategy-analytics, .product-design, .management {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    gap: 10px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-style:solid;
+    border-color: #004aad;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s 
+}
+.business-opertions h3, .customer-marketing h3 , .enterprise-technology-performance h3, .strategy-analytics h3, .product-design h3, .management h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.business-opertions p, .customer-marketing p, .enterprise-technology-performance p, .strategy-analytics p, .product-design p, .management p{
+    font-size: 16px;
+    font-weight: 500;
+    width: 350px;
+}
+/* For screens with a width of 1024px or less */
+@media (max-width: 1024px) {
+    .consultant p {
+        width: 90%; /* Adjust width for smaller screens */
+        font-size: 17px;
+    }
+
+    .consultant-business-container, .consultant-strategy-container {
+        flex-direction: column; /* Stack the sections vertically */
+        align-items: center;
+        gap: 40px; /* Reduce gap between items */
+    }
+
+    .business-opertions, .customer-marketing, .enterprise-technology-performance, 
+    .strategy-analytics, .product-design, .management {
+        width: 90%; /* Make the cards responsive */
+        height: auto; /* Adjust height to content */
+    }
+}
+
+/* For screens with a width of 800px or less */
+@media (max-width: 800px) {
+    .consultant h2 {
+        font-size: 24px;
+    }
+
+    .consultant p {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    .business-opertions, .customer-marketing, .enterprise-technology-performance, 
+    .strategy-analytics, .product-design, .management {
+        width: 95%; /* Full width for smaller devices */
+        height: auto;
+    }
+
+    .business-opertions h3, .customer-marketing h3, .enterprise-technology-performance h3, 
+    .strategy-analytics h3, .product-design h3, .management h3 {
+        font-size: 18px;
+    }
+
+    .business-opertions p, .customer-marketing p, .enterprise-technology-performance p, 
+    .strategy-analytics p, .product-design p, .management p {
+        font-size: 15px;
+    }
+
+    .consultant-business-container, .consultant-strategy-container {
+        gap: 30px; /* Reduce gap between sections */
+    }
+}
+
+/* For screens with a width of 500px or less */
+@media (max-width: 500px) {
+    .consultant {
+        margin-top: 40px; /* Reduce top margin */
+    }
+
+    .consultant h2 {
+        font-size: 22px;
+    }
+
+    .consultant p {
+        font-size: 15px;
+        width: 95%;
+    }
+
+    .business-opertions, .customer-marketing, .enterprise-technology-performance, 
+    .strategy-analytics, .product-design, .management {
+        width: 60%; /* Full width on very small screens */
+        height: auto;
+        padding: 5px;
+        box-shadow: none; /* Optional: Reduce shadows on small screens */
+    }
+
+    .business-opertions h3, .customer-marketing h3, .enterprise-technology-performance h3, 
+    .strategy-analytics h3, .product-design h3, .management h3 {
+        font-size: 16px;
+    }
+
+    .business-opertions p, .customer-marketing p, .enterprise-technology-performance p, 
+    .strategy-analytics p, .product-design p, .management p {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .consultant-business-container, .consultant-strategy-container {
+        gap: 20px; /* Reduce gap for better fit on small screens */
+    }
+}

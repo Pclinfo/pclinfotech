@@ -1,0 +1,336 @@
+.hs-vps {
+    height: auto;
+}
+.hs-vps-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: #1A5EE2;
+    
+}
+.hs-vps-title-1{
+    gap: 40px;
+}
+.hs-vps-title-1 h2{
+    font-size: 34px;
+    color: white;
+}
+.hs-vps-title-1 p{
+    margin-bottom: 20px;
+     width: 650px;
+     font-size: 18px;
+     color: white;
+}
+.hs-vps-title-1 button{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    width: 150px;
+    height: 40px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+.hs-vps-img-1 img{
+    width: 550px;
+    height: auto;
+}
+.hs-vps-subcard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+.hs-vps-subcard h2{
+     font-size: 28px;
+     color: #004aad;
+}
+.hs-vps-subcard-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+.hs-vps-subcard-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+.hs-vps-subcard-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+.dedicated-resources,
+.scalability,
+.full-control,
+.enhanced-security,
+.optimal-performance,
+.custom-configuration,
+.flexible-operating-systems,
+.managed-unmanaged,
+.support {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 45px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+.dedicated-resources img,
+.scalability img,
+.full-control img,
+.enhanced-security img,
+.optimal-performance img,
+.custom-configuration img,
+.flexible-operating-systems img,
+.managed-unmanaged img,
+.support img {
+    width: 90px;
+    height: auto;
+}
+.dedicated-resources h3,
+.scalability h3,
+.full-control h3,
+.enhanced-security h3,
+.optimal-performance h3,
+.custom-configuration h3,
+.flexible-operating-systems h3,
+.managed-unmanaged h3,
+.support h3 {
+    text-align: center;
+    font-size: 20px;
+}
+.dedicated-resources p,
+.scalability p,
+.full-control p,
+.enhanced-security p,
+.optimal-performance p,
+.custom-configuration p,
+.flexible-operating-systems p,
+.managed-unmanaged p,
+.support p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+.hs-vps-button-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hs-vps-button-2 button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    margin-bottom: 100px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .hs-vps-header {
+      flex-direction: column;
+      gap: 30px;
+      padding: 30px 0;
+    }
+  
+    .hs-vps-title-1 {
+      text-align: center;
+    }
+  
+    .hs-vps-title-1 p {
+      width: 80%;
+      margin: 0 auto 20px;
+    }
+  
+    .hs-vps-title-1 button {
+      margin-right: 0;
+    }
+  
+    .hs-vps-img-1 img {
+      width: 80%;
+      max-width: 450px;
+    }
+  
+    .hs-vps-subcard-1,
+    .hs-vps-subcard-2,
+    .hs-vps-subcard-3 {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+  
+    .dedicated-resources,
+    .scalability,
+    .full-control,
+    .enhanced-security,
+    .optimal-performance,
+    .custom-configuration,
+    .flexible-operating-systems,
+    .managed-unmanaged,
+    .support {
+      width: 45%;
+      height: auto;
+      padding: 30px 0;
+    }
+  }
+  
+  /* Media query for screens up to 800px */
+  @media screen and (max-width: 800px) {
+    .hs-vps-title-1 h2 {
+      font-size: 28px;
+    }
+  
+    .hs-vps-title-1 p {
+      font-size: 16px;
+      width: 90%;
+    }
+  
+    .hs-vps-subcard h2 {
+      font-size: 24px;
+    }
+  
+    .dedicated-resources,
+    .scalability,
+    .full-control,
+    .enhanced-security,
+    .optimal-performance,
+    .custom-configuration,
+    .flexible-operating-systems,
+    .managed-unmanaged,
+    .support {
+      width: 80%;
+    }
+  
+    .dedicated-resources h3,
+    .scalability h3,
+    .full-control h3,
+    .enhanced-security h3,
+    .optimal-performance h3,
+    .custom-configuration h3,
+    .flexible-operating-systems h3,
+    .managed-unmanaged h3,
+    .support h3 {
+      font-size: 18px;
+    }
+    .dedicated-resources p,
+    .scalability p,
+    .full-control p,
+    .enhanced-security p,
+    .optimal-performance p,
+    .custom-configuration p,
+    .flexible-operating-systems p,
+    .managed-unmanaged p,
+    .support p {
+      font-size: 16px;
+    }
+  }
+  
+  /* Media query for screens up to 500px */
+  @media screen and (max-width: 500px) {
+    .hs-vps-title-1 h2 {
+      font-size: 24px;
+    }
+  
+    .hs-vps-title-1 p {
+      font-size: 14px;
+    }
+  
+    .hs-vps-title-1 button {
+      width: 130px;
+      height: 35px;
+      font-size: 16px;
+    }
+  
+    .hs-vps-subcard h2 {
+      font-size: 22px;
+    }
+    .dedicated-resources,
+    .scalability,
+    .full-control,
+    .enhanced-security,
+    .optimal-performance,
+    .custom-configuration,
+    .flexible-operating-systems,
+    .managed-unmanaged,
+    .support  {
+      width: 90%;
+      border-radius: 25px;
+    }
+  
+    .dedicated-resources img,
+    .scalability img,
+    .full-control img,
+    .enhanced-security img,
+    .optimal-performance img,
+    .custom-configuration img,
+    .flexible-operating-systems img,
+    .managed-unmanaged img,
+    .support img {
+      width: 70px;
+    }
+  
+    .dedicated-resources h3,
+    .scalability h3,
+    .full-control h3,
+    .enhanced-security h3,
+    .optimal-performance h3,
+    .custom-configuration h3,
+    .flexible-operating-systems h3,
+    .managed-unmanaged h3,
+    .support h3 {
+      font-size: 16px;
+    }
+  
+    .dedicated-resources p,
+    .scalability p,
+    .full-control p,
+    .enhanced-security p,
+    .optimal-performance p,
+    .custom-configuration p,
+    .flexible-operating-systems p,
+    .managed-unmanaged p,
+    .support p {
+      width: 250px;
+      font-size: 14px;
+    }
+  
+    .hs-vps-button-2 button {
+      width: 150px;
+      height: 40px;
+      font-size: 16px;
+    }
+  }

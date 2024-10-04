@@ -1,0 +1,645 @@
+.web-sfw {
+    height: auto;
+}
+
+.web-sfw-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    height: auto;
+}
+
+.web-sfw-left {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.web-sfw-left h2 {
+    font-size: 38px;
+    font-weight: 450;
+    color: #004aad;
+}
+
+.web-sfw-left p {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 900px;
+    height: auto;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.web-sfw-left button {
+    margin-top: 15px;
+    margin-right: 40px;
+    width: 350px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.web-sfw-left button :hover {
+    background-color: #004aad;
+    color: white;
+}
+
+.web-sfw-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+.web-sfw-right img {
+    width: 550px;
+    height: auto;
+}
+
+.web-sfw-2 {
+    height: 850px;
+}
+
+.web-sfw-2-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-sfw-2-left img {
+    width: 550px;
+    height: auto;
+}
+
+.web-sfw-2-left p {
+    width: 950px;
+    font-size: 24px;
+}
+
+.web-sfw-2-right {
+    display: flex;
+    float: right;
+}
+
+.web-sfw-2-right img {
+    width: 450px;
+    margin: -35%;
+    margin-bottom: 20px;
+}
+
+.web-sfw-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+
+}
+
+.web-sfw-title-1 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-sfw-title-1 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.web-sfw-card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.web-sfw-card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.web-sfw-card-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.web-sfw-card-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.innovative-and-reliable {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.customized-for-your-business {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.seamless-integration-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.user-friendly-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.enterprise-resource-planning {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.customer-relationship-management {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.accounting-software {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.project-management-tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.affordable-pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.custom-software-development {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.support-and-training {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.future-proof-solutions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.innovative-and-reliable img,
+.customized-for-your-business img,
+.seamless-integration-1 img,
+.user-friendly-design img,
+.enterprise-resource-planning img,
+.customer-relationship-management img,
+.accounting-software img,
+.project-management-tools img,
+.affordable-pricing img,
+.custom-software-development img,
+.support-and-training img,
+.future-proof-solutions img {
+    width: 90px;
+    height: auto;
+}
+
+.innovative-and-reliable h3,
+.customized-for-your-business h3,
+.seamless-integration-1 h3,
+.user-friendly-design h3,
+.enterprise-resource-planning h3,
+.customer-relationship-management h3,
+.accounting-software h3,
+.project-management-tools h3,
+.affordable-pricing h3,
+.custom-software-development h3,
+.support-and-training h3,
+.future-proof-solutions h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.innovative-and-reliable p,
+.customized-for-your-business p,
+.seamless-integration-1 p,
+.user-friendly-design p,
+.enterprise-resource-planning p,
+.customer-relationship-management p,
+.accounting-software p,
+.project-management-tools p,
+.affordable-pricing p,
+.custom-software-development p,
+.support-and-training p,
+.future-proof-solutions p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.web-sfw-button button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.web-sfw-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.web-sfw-title-2 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-sfw-title-2 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.web-sfw-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+
+.web-sfw-logo-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.web-sfw-logo-container-1 img {
+    width: 90px;
+    height: auto;
+}
+
+.web-sfw-logo-container-1 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-sfw-logo-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.web-sfw-logo-container-2 img {
+    width: 90px;
+    height: auto;
+}
+
+.web-sfw-logo-container-2 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-sfw-logo-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.web-sfw-logo-container-3 img {
+    width: 90px;
+    height: auto;
+}
+
+.web-sfw-logo-container-3 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .web-sfw-left p {
+        width: 700px;
+    }
+
+    .web-sfw-title-1 p,
+    .web-sfw-title-2 p {
+        width: 90%;
+    }
+
+    .web-sfw-card-1,
+    .web-sfw-card-2,
+    .web-sfw-card-3,
+    .web-sfw-card-4 {
+        flex-wrap: wrap;
+    }
+
+    .web-sfw-logo-container-1,
+    .web-sfw-logo-container-2,
+    .web-sfw-logo-container-3 {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .web-sfw-1 {
+        flex-direction: column;
+    }
+
+    .web-sfw-left p {
+        width: 90%;
+    }
+
+    .web-sfw-right img,
+    .web-sfw-2-left img {
+        width: 90%;
+    }
+
+    .web-sfw-2-left {
+        flex-direction: column;
+    }
+
+    .web-sfw-2-left p {
+        width: 90%;
+    }
+
+    .web-sfw-2-right img {
+        width: 90%;
+        margin: 0;
+    }
+
+    .web-sfw-logo-container-1,
+    .web-sfw-logo-container-2,
+    .web-sfw-logo-container-3 {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .web-sfw-left h2 {
+        font-size: 32px;
+    }
+
+    .web-sfw-left p,
+    .web-sfw-2-left p {
+        font-size: 18px;
+    }
+
+    .innovative-and-reliable ,
+    .customized-for-your-business ,
+    .seamless-integration-1 ,
+    .user-friendly-design ,
+    .enterprise-resource-planning ,
+    .customer-relationship-management ,
+    .accounting-software ,
+    .project-management-tools ,
+    .affordable-pricing ,
+    .custom-software-development,
+    .support-and-training,
+    .future-proof-solutions   {
+        width: 90%;
+    }
+
+    .web-sfw-logo-container-1 h2,
+    .web-sfw-logo-container-2 h2,
+    .web-sfw-logo-container-3 h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .web-sfw-left h2 {
+        font-size: 28px;
+    }
+
+    .web-sfw-left p,
+    .web-sfw-2-left p,
+    .web-sfw-title-1 p,
+    .web-sfw-title-2 p {
+        font-size: 16px;
+    }
+
+    .web-sfw-left button {
+        width: 90%;
+        margin-right: 0;
+    }
+    .innovative-and-reliable ,
+    .customized-for-your-business ,
+    .seamless-integration-1 ,
+    .user-friendly-design ,
+    .enterprise-resource-planning ,
+    .customer-relationship-management ,
+    .accounting-software ,
+    .project-management-tools ,
+    .affordable-pricing ,
+    .custom-software-development,
+    .support-and-training,
+    .future-proof-solutions   {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .innovative-and-reliable p,
+    .customized-for-your-business p,
+    .seamless-integration-1 p,
+    .user-friendly-design p,
+    .enterprise-resource-planning p,
+    .customer-relationship-management p,
+    .accounting-software p,
+    .project-management-tools p,
+    .affordable-pricing p,
+    .custom-software-development p,
+    .support-and-training p,
+    .future-proof-solutions p {
+        width: 90%;
+    }
+
+    .web-sfw-logo-container-1,
+    .web-sfw-logo-container-2,
+    .web-sfw-logo-container-3 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .web-sfw-logo-container-1 h2,
+    .web-sfw-logo-container-2 h2,
+    .web-sfw-logo-container-3 h2 {
+        font-size: 20px;
+    }
+}

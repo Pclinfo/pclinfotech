@@ -1,0 +1,1010 @@
+.dtg-smm-1 {
+    height: auto;
+}
+
+.dtg-smm-main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dtg-smm-main-title p {
+    width: 1200px;
+}
+
+.dtg-smm-title-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    height: auto;
+}
+
+.dtg-smm-title-1 h2 {
+    font-size: 34px;
+    width: 450px;
+}
+
+.dtg-smm-img-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -180px;
+
+}
+
+.dtg-smm-img-1 img {
+    width: 450px;
+    height: auto;
+}
+
+.dtg-smm-title-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 35px;
+    margin-top: -140px;
+}
+
+.dtg-smm-img-1 p {
+    width: 900px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dtg-smm-title-2 button {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    width: 450px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.dtg-smm-title-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dtg-smm-title-3 p {
+    width: 1200px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.dtg-smm-sub-title-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.dtg-smm-sub-title-1 p {
+    width: 1200px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.dtg-smm-img-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.dtg-smm-img-4 img {
+    width: 250px;
+    height: auto;
+}
+
+.dtg-smm-img-4 h2 {
+    margin-bottom: -120px;
+    font-size: 30px;
+
+}
+
+.dtg-smm-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.dtg-smm-card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.dtg-smm-card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.dtg-smm-card-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.strategic-content-creation,
+.targeted-advertising,
+.comprehensive-platform-management,
+.audience-engagement,
+.analytics-and-reporting,
+.crisis-management,
+.influencer-collaboration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 45px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.strategic-content-creation img,
+.targeted-advertising img,
+.comprehensive-platform-management img,
+.audience-engagement img,
+.analytics-and-reporting img,
+.crisis-management img,
+.influencer-collaboration img {
+    width: 90px;
+    height: auto;
+}
+
+.strategic-content-creation h3,
+.targeted-advertising h3,
+.comprehensive-platform-management h3,
+.audience-engagement h3,
+.analytics-and-reporting h3,
+.crisis-management h3,
+.influencer-collaboration h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.strategic-content-creation p,
+.targeted-advertising p,
+.comprehensive-platform-management p,
+.audience-engagement p,
+.analytics-and-reporting p,
+.crisis-management p,
+.influencer-collaboration p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.dtg-smm-button-1 button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.dtg-smm-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.dtg-smm-title-7 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.dtg-smm-title-7 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.dtg-smm-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+
+.dtg-smm-logo-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.dtg-smm-logo-container-1 img {
+    width: 160px;
+    height: auto;
+}
+
+.dtg-smm-title-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.dtg-smm-title-6 p {
+    margin-bottom: 30px;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dtg-smm-main-title-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.dtg-smm-img-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 120px;
+    margin-top: -20px
+}
+
+.dtg-smm-img-5 img {
+    width: 450px;
+    height: auto;
+}
+
+.dtg-smm-img-5 p {
+    font-size: 22px;
+}
+
+.dtg-smm-main-title-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -160px;
+    gap: 60px;
+}
+
+.dtg-smm-main-title-7 button {
+    margin-top: -25px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    width: 250px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.dtg-smm-main-title-7 p {
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.dtg-smm-ctn-title h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.dtg-smm-ctn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two equal columns */
+    gap: 30px;
+    /* Space between grid items */
+    max-width: 1200px;
+    /* Set max width for the container */
+    margin: 0 auto;
+    /* Center the container */
+    padding: 40px 20px;
+    /* Add padding */
+    text-align: center;
+    /* Align text to the left */
+    justify-content: center;
+}
+
+.dtg-smm-ctn-1,
+.dtg-smm-ctn-2,
+.dtg-smm-ctn-3,
+.dtg-smm-ctn-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dtg-smm-ctn h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    /* Adjust spacing */
+}
+
+.dtg-smm-ctn p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: -40px;
+    /* Adjust spacing between paragraphs and images */
+}
+
+.dtg-smm-ctn img {
+    width: 250px;
+    /* Adjust image size */
+    height: auto;
+    object-fit: contain;
+    /* Ensure images maintain their aspect ratio */
+    margin-top: -30px;
+}
+
+.dtg-smm-ctn-img-1,
+.dtg-smm-ctn-img-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.dtg-smm-ctn-img-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;
+}
+
+.dtg-smm-ctn-img-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;
+}
+
+/* Alternate the text and image positions for better balance */
+.dtg-smm-ctn-1 {
+    grid-column: 1;
+}
+
+.dtg-smm-ctn-img-1 {
+    grid-column: 2;
+}
+
+.dtg-smm-ctn-2 {
+    grid-column: 2;
+    /* Flip content to second column */
+}
+
+.dtg-smm-ctn-img-2 {
+    grid-column: 1;
+    /* Image in the first column */
+}
+
+.dtg-smm-ctn-3 {
+    grid-column: 1;
+}
+
+.dtg-smm-ctn-img-3 {
+    grid-column: 2;
+}
+
+.dtg-smm-ctn-4 {
+    grid-column: 2;
+}
+
+.dtg-smm-ctn-img-4 {
+    grid-column: 1;
+}
+
+.dtg-smm-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+
+}
+
+.dtg-smm-3 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.dtg-smm-subcard-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.dtg-smm-subcard-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.dtg-smm-subcard-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.concept-development,
+.scriptwriting-storyboarding,
+.professional-filming,
+.creative-editing,
+.music-sound-design,
+.branding-actions,
+.platform-optimization {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+
+.concept-development img,
+.scriptwriting-storyboarding img,
+.professional-filming img,
+.creative-editing img,
+.music-sound-design img,
+.branding-actions img,
+.platform-optimization img {
+    width: 90px;
+    height: auto;
+}
+
+.concept-development h3,
+.scriptwriting-storyboarding h3,
+.professional-filming h3,
+.creative-editing h3,
+.music-sound-design h3,
+.branding-actions h3,
+.platform-optimization h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.concept-development p,
+.scriptwriting-storyboarding p,
+.professional-filming p,
+.creative-editing p,
+.music-sound-design p,
+.branding-actions p,
+.platform-optimization p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.dtg-smm-button-2 button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.dtg-smm-main-title-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.dtg-smm-main-title-8 p {
+    width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.dtg-smm-img-6 {
+    margin-bottom: 30px;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dtg-smm-main-title-9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dtg-smm-main-title-9 p {
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.dtg-smm-main-title-9 button {
+    margin-top: -25px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    width: 250px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.dtg-smm-img-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 120px;
+    margin-top: -20px;
+    margin-left: -190;
+}
+
+.dtg-smm-ctn-title h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.dtg-smm-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.dtg-smm-4 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.dtg-smm-sub-card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.dtg-smm-sub-card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.eye-catching-graphics,
+.message-clarity,
+.brand-integration,
+.print-and-digital-formats,
+.professional-quality {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.eye-catching-graphics img,
+.message-clarity img,
+.brand-integration img,
+.print-and-digital-formats img,
+.professional-quality img {
+    width: 90px;
+    height: auto;
+}
+
+.eye-catching-graphics h3,
+.message-clarity h3,
+.brand-integration h3,
+.print-and-digital-formats h3,
+.professional-quality h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.eye-catching-graphics p,
+.message-clarity p,
+.brand-integration p,
+.print-and-digital-formats p,
+.professional-quality p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.dtg-smm-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+
+.dtg-smm-logo-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.dtg-smm-logo-container-1 img {
+    width: 90px;
+    height: auto;
+}
+
+.dtg-smm-logo-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.dtg-smm-logo-container-2 img {
+    width: 90px;
+    height: auto;
+}
+
+.dtg-smm-logo-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-bottom: 100px;
+}
+
+.dtg-smm-logo-container-3 img {
+    width: 90px;
+    height: auto;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .dtg-smm-main-title p,
+    .dtg-smm-title-3 p,
+    .dtg-smm-sub-title-1 p,
+    .dtg-smm-title-6 p,
+    .dtg-smm-main-title-7 p {
+        width: 90%;
+    }
+
+    .dtg-smm-img-1 p {
+        width: 80%;
+    }
+
+    .dtg-smm-title-7 p {
+        width: 90%;
+    }
+
+    .dtg-smm-ctn {
+        max-width: 90%;
+    }
+
+    .dtg-smm-logo-container-1 {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .dtg-smm-title-1 h2 {
+        width: 90%;
+    }
+
+    .dtg-smm-img-1 {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .dtg-smm-img-1 img {
+        width: 90%;
+    }
+
+    .dtg-smm-title-2 button {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .dtg-smm-img-4 {
+        flex-direction: column;
+    }
+
+    .dtg-smm-card-1,
+    .dtg-smm-card-2,
+    .dtg-smm-card-3,
+    .dtg-smm-subcard-1,
+    .dtg-smm-subcard-2 {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .dtg-smm-img-5 {
+        flex-direction: column;
+        margin: 60px 0;
+    }
+
+    .dtg-smm-img-5 img {
+        width: 90%;
+    }
+
+    .dtg-smm-main-title-7 button {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .dtg-smm-logo-container-1 {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .dtg-smm-title-1 h2 {
+        font-size: 28px;
+    }
+
+    .dtg-smm-img-1 p,
+    .dtg-smm-title-3 p,
+    .dtg-smm-sub-title-1 p,
+    .dtg-smm-title-6 p,
+    .dtg-smm-img-5 p,
+    .dtg-smm-main-title-7 p {
+        font-size: 18px;
+    }
+
+    .dtg-smm-img-4 h2 {
+        font-size: 26px;
+    }
+
+    .strategic-content-creation,
+    .targeted-advertising,
+    .comprehensive-platform-management,
+    .audience-engagement,
+    .analytics-and-reporting,
+    .crisis-management,
+    .influencer-collaboration,
+    .concept-development,
+    .scriptwriting-storyboarding,
+    .professional-filming,
+    .creative-editing,
+    .music-sound-design,
+    .branding-actions,
+    .platform-optimization {
+        width: 90%;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .dtg-smm-ctn {
+        gap: 20px;
+    }
+
+    .dtg-smm-ctn h3 {
+        font-size: 1.3rem;
+    }
+
+    .dtg-smm-ctn p {
+        font-size: 0.9rem;
+    }
+
+    .dtg-smm-ctn img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dtg-smm-title-1 h2 {
+        font-size: 24px;
+    }
+
+    .dtg-smm-img-1 p,
+    .dtg-smm-title-3 p,
+    .dtg-smm-sub-title-1 p,
+    .dtg-smm-title-6 p,
+    .dtg-smm-img-5 p,
+    .dtg-smm-main-title-7 p {
+        font-size: 16px;
+    }
+
+    .dtg-smm-img-4 h2 {
+        font-size: 22px;
+    }
+
+    .dtg-smm-img-4 img {
+        width: 200px;
+    }
+
+    .concept-development h3,
+    .scriptwriting-storyboarding h3,
+    .professional-filming h3,
+    .creative-editing h3,
+    .music-sound-design h3,
+    .branding-actions h3,
+    .platform-optimization h3,
+    .eye-catching-graphics h3,
+    .message-clarity h3,
+    .brand-integration h3,
+    .print-and-digital-formats h3,
+    .professional-quality h3 {
+        font-size: 18px;
+    }
+
+    .concept-development p,
+    .scriptwriting-storyboarding p,
+    .professional-filming p,
+    .creative-editing p,
+    .music-sound-design p,
+    .branding-actions p,
+    .platform-optimization p,
+    .eye-catching-graphics p,
+    .message-clarity p,
+    .brand-integration p,
+    .print-and-digital-formats p,
+    .professional-quality p {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .dtg-smm-button-1 button,
+    .dtg-smm-button-2 button {
+        width: 90%;
+    }
+
+    .dtg-smm-logo-container-1 img {
+        width: 120px;
+    }
+
+    .dtg-smm-ctn {
+        padding: 20px 10px;
+    }
+
+    .dtg-smm-ctn h3 {
+        font-size: 1.2rem;
+    }
+
+    .dtg-smm-ctn p {
+        font-size: 0.8rem;
+    }
+
+    .dtg-smm-ctn img {
+        width: 150px;
+    }
+}

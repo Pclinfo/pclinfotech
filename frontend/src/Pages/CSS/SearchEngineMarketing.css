@@ -1,0 +1,683 @@
+.dtg-sem-1{
+    height: auto;
+}
+.dtg-sem-main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.dtg-sem-main-title p{
+    width: 1200px;
+}
+.dtg-sem-title-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    height: auto;
+}
+.dtg-sem-title-1 h2{
+    font-size: 34px;
+    width: 450px;
+}
+.dtg-sem-img-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;     
+    margin-top: -180px;
+
+}
+.dtg-sem-img-1 img{
+    width: 500px;
+    height: auto;
+}
+.dtg-sem-title-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 35px;
+    margin-top: -140px;
+}
+.dtg-sem-img-1 p{
+    width: 900px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+}
+.dtg-sem-title-2 button{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    width: 450px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+.dtg-sem-title-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.dtg-sem-title-3 p{
+    width: 1200px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+}
+.dtg-sem-sub-title-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 80px;
+}
+.dtg-sem-sub-title-1 p {
+     width: 1200px;
+     font-size: 18px;
+     font-weight: 400;
+}
+.dtg-sem-img-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.dtg-sem-img-4 img{ 
+    width: 250px;
+    height: auto;
+}
+.dtg-sem-img-4 h2{
+    margin-bottom: -120px;
+    font-size: 30px;
+
+}
+.dtg-sem-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+.dtg-sem-card-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+.dtg-sem-card-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+.dtg-sem-card-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+.targeted-traffic, .custom-ppc-campaigns, .data-driven-optimization, .comprehensive-reporting, .landing-page-optimization, .continuous-support, .ad-budget-management{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 45px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+.targeted-traffic img, .custom-ppc-campaigns img, .data-driven-optimization img, .comprehensive-reporting img, .landing-page-optimization img, .continuous-support img, .ad-budget-management img{
+    width: 90px;
+    height: auto;
+}
+.targeted-traffic h3, .custom-ppc-campaigns h3, .data-driven-optimization h3, .comprehensive-reporting h3, .landing-page-optimization h3, .continuous-support h3, .ad-budget-management h3{
+    text-align: center;
+    font-size: 20px;
+}
+.targeted-traffic p, .custom-ppc-campaigns p, .data-driven-optimization p, .comprehensive-reporting p, .landing-page-optimization p, .continuous-support p, .ad-budget-management p{
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+.dtg-sem-button-1 button{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+.dtg-sem-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+.dtg-sem-title-7 h2{
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+.dtg-sem-title-7 p{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+.dtg-sem-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+.dtg-sem-logo-container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+.dtg-sem-logo-container-1 img{
+    width: 160px;
+    height: auto;
+}
+.dtg-sem-title-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+.dtg-sem-title-6 p{
+margin-bottom: 30px;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.dtg-sem-main-title-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.dtg-sem-img-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 120px;
+    margin-top: -60px
+}
+.dtg-sem-img-5 img{
+    width: 450px;
+    height: auto;
+}
+.dtg-sem-img-5 p{
+    font-size: 22px;
+}
+.dtg-sem-main-title-7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -160px;
+    gap: 60px;
+}
+.dtg-sem-main-title-7 button{
+    margin-top: -25px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    width: 350px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+.dtg-sem-main-title-7 p{
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.dtg-sem-ctn-title h2{
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+.dtg-sem-ctn {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal columns */
+    gap: 30px; /* Space between grid items */
+    max-width: 1200px; /* Set max width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 40px 20px; /* Add padding */
+    text-align: center; /* Align text to the left */
+    justify-content: center;
+
+    
+}
+
+.dtg-sem-ctn-1, .dtg-sem-ctn-2, .dtg-sem-ctn-3, .dtg-sem-ctn-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dtg-sem-ctn h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px; /* Adjust spacing */
+}
+
+.dtg-sem-ctn p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: -40px; /* Adjust spacing between paragraphs and images */
+}
+
+.dtg-sem-ctn img {
+    width: 250px; /* Adjust image size */
+    height: auto;
+    object-fit: contain; /* Ensure images maintain their aspect ratio */
+    margin-top: -30px;
+}
+
+.dtg-sem-ctn-img-1, .dtg-sem-ctn-img-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.dtg-sem-ctn-img-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;
+}
+.dtg-sem-ctn-img-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -120px;
+}
+/* Alternate the text and image positions for better balance */
+.dtg-sem-ctn-1 {
+    grid-column: 1;
+}
+
+.dtg-sem-ctn-img-1 {
+    grid-column: 2;
+}
+
+.dtg-sem-ctn-2 {
+    grid-column: 2; /* Flip content to second column */
+}
+
+.dtg-sem-ctn-img-2 {
+    grid-column: 1; /* Image in the first column */
+}
+
+.dtg-sem-ctn-3 {
+    grid-column: 1;
+}
+
+.dtg-sem-ctn-img-3 {
+    grid-column: 2;
+}
+
+.dtg-sem-ctn-4 {
+    grid-column: 2;
+}
+
+.dtg-sem-ctn-img-4 {
+    grid-column: 1;
+}
+
+  .dtg-sem-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+
+}
+
+.dtg-sem-3 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+.dtg-sem-subcard-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.dtg-sem-subcard-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.targeted-campaigns, .creative-excellence, .data-driven-strategy, .platform-expertise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+
+.targeted-campaigns img, .creative-excellence img, .data-driven-strategy img, .platform-expertise img {
+    width: 60px;
+    height: auto;
+}
+
+.targeted-campaigns h3, .creative-excellence h3, .data-driven-strategy h3, .platform-expertise h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.targeted-campaigns p, .creative-excellence p, .data-driven-strategy p, .platform-expertise p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.dtg-sem-button-2 button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+  
+.dtg-sem-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+.dtg-sem-logo-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-bottom: 100px;
+}
+.dtg-sem-logo-container-1 img{
+    width: 110px;
+    height: auto;
+}
+
+/* Original CSS styles */
+.dtg-sem-1 {
+    height: auto;
+}
+
+/* ... (rest of the original CSS) ... */
+
+/* Media Queries */
+@media screen and (max-width: 1280px) {
+    .dtg-sem-main-title p,
+    .dtg-sem-title-3 p,
+    .dtg-sem-sub-title-1 p,
+    .dtg-sem-title-6 p,
+    .dtg-sem-main-title-7 p {
+        width: 90%;
+    }
+
+    .dtg-sem-img-1 p {
+        width: 80%;
+    }
+
+    .dtg-sem-title-7 p {
+        width: 90%;
+    }
+
+    .dtg-sem-ctn {
+        max-width: 90%;
+    }
+
+    .dtg-sem-logo-container-1 {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .dtg-sem-title-1 h2 {
+        width: 90%;
+    }
+
+    .dtg-sem-img-1 {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .dtg-sem-img-1 img {
+        width: 90%;
+    }
+
+    .dtg-sem-title-2 button {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .dtg-sem-img-4 {
+        flex-direction: column;
+    }
+
+    .dtg-sem-card-1,
+    .dtg-sem-card-2,
+    .dtg-sem-card-3,
+    .dtg-sem-subcard-1,
+    .dtg-sem-subcard-2 {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .dtg-sem-img-5 {
+        flex-direction: column;
+        margin: 60px 0;
+    }
+
+    .dtg-sem-img-5 img {
+        width: 90%;
+    }
+
+    .dtg-sem-main-title-7 button {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .dtg-sem-logo-container-1 {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .dtg-sem-title-1 h2 {
+        font-size: 28px;
+    }
+
+    .dtg-sem-img-1 p,
+    .dtg-sem-title-3 p,
+    .dtg-sem-sub-title-1 p,
+    .dtg-sem-title-6 p,
+    .dtg-sem-img-5 p,
+    .dtg-sem-main-title-7 p {
+        font-size: 18px;
+    }
+
+    .dtg-sem-img-4 h2 {
+        font-size: 26px;
+    }
+
+    .targeted-traffic, .custom-ppc-campaigns, .data-driven-optimization, .comprehensive-reporting, .landing-page-optimization, .continuous-support, .ad-budget-management,
+    .targeted-campaigns, .creative-excellence, .data-driven-strategy, .platform-expertise {
+        width: 90%;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .dtg-sem-ctn {
+        gap: 20px;
+    }
+
+    .dtg-sem-ctn h3 {
+        font-size: 1.3rem;
+    }
+
+    .dtg-sem-ctn p {
+        font-size: 0.9rem;
+    }
+
+    .dtg-sem-ctn img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dtg-sem-title-1 h2 {
+        font-size: 24px;
+    }
+
+    .dtg-sem-img-1 p,
+    .dtg-sem-title-3 p,
+    .dtg-sem-sub-title-1 p,
+    .dtg-sem-title-6 p,
+    .dtg-sem-img-5 p,
+    .dtg-sem-main-title-7 p {
+        font-size: 16px;
+    }
+
+    .dtg-sem-img-4 h2 {
+        font-size: 22px;
+    }
+
+    .dtg-sem-img-4 img {
+        width: 200px;
+    }
+
+    .targeted-traffic h3, .custom-ppc-campaigns h3, .data-driven-optimization h3, .comprehensive-reporting h3, .landing-page-optimization h3, .continuous-support h3, .ad-budget-management h3,
+    .targeted-campaigns h3, .creative-excellence h3, .data-driven-strategy h3, .platform-expertise h3 {
+        font-size: 18px;
+    }
+
+    .targeted-traffic p, .custom-ppc-campaigns p, .data-driven-optimization p, .comprehensive-reporting p, .landing-page-optimization p, .continuous-support p, .ad-budget-management p,
+    .targeted-campaigns p, .creative-excellence p, .data-driven-strategy p, .platform-expertise p {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .dtg-sem-button-1 button,
+    .dtg-sem-button-2 button {
+        width: 90%;
+    }
+
+    .dtg-sem-logo-container-1 img {
+        width: 120px;
+    }
+
+    .dtg-sem-ctn {
+        padding: 20px 10px;
+    }
+
+    .dtg-sem-ctn h3 {
+        font-size: 1.2rem;
+    }
+
+    .dtg-sem-ctn p {
+        font-size: 0.8rem;
+    }
+
+    .dtg-sem-ctn img {
+        width: 150px;
+    }
+}

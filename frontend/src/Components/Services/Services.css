@@ -1,0 +1,315 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 60px;
+}
+
+.services h2 {
+    font-weight: 800;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.services hr {
+    margin-top: -20px;
+    width: 800px;
+    height: 4px;
+    border-radius: 10px;
+    background: #000000;
+}
+
+.services-web-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    padding: 20px;
+
+}
+
+.services-host-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.innovative-technology-solutions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 280px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.customized-it-strategies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.scalable-growth-solutions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+
+}
+
+.strategic-partnership {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.robust-security-measures {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.commitment-to-excellence {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.agile-and-adaptive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.innovative-technology-solutions:hover,
+.customized-it-strategies:hover,
+.scalable-growth-solutions:hover,
+.strategic-partnership:hover,
+.robust-security-measures:hover,
+.commitment-to-excellence:hover,
+.agile-and-adaptive:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 74, 173, 0.3);
+    border-bottom: 6px solid #004aad;
+}
+
+.innovative-technology-solutions img,
+.customized-it-strategies img,
+.scalable-growth-solutions img,
+.strategic-partnership img,
+.robust-security-measures img,
+.commitment-to-excellence img,
+.agile-and-adaptive img {
+    width: 84px;
+    height: 84px;
+}
+
+.innovative-technology-solutions h3,
+.customized-it-strategies h3,
+.scalable-growth-solutions h3,
+.strategic-partnership h3,
+.robust-security-measures h3,
+.commitment-to-excellence h3,
+.agile-and-adaptive h3 {
+    font-size: 20px;
+    color: #004aad;
+}
+
+.innovative-technology-solutions p,
+.customized-it-strategies p,
+.scalable-growth-solutions p,
+.strategic-partnership p,
+.robust-security-measures p,
+.commitment-to-excellence p,
+.agile-and-adaptive p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    width: 250px;
+}
+/* For screens 1024px and below */
+@media screen and (max-width: 1280px) {
+    .services-web-container, 
+    .services-host-container {
+        gap: 40px; /* Reduce gap between cards */
+    }
+
+    .innovative-technology-solutions,
+    .customized-it-strategies,
+    .scalable-growth-solutions,
+    .strategic-partnership,
+    .robust-security-measures,
+    .commitment-to-excellence,
+    .agile-and-adaptive {
+        width: 230px; /* Slightly smaller cards */
+        height: 360px;
+    }
+
+    .services h2 {
+        font-size: 20px;
+    }
+    .services p {
+        font-size: 16px;
+    }
+    
+}
+@media screen and (max-width: 1024px) {
+    .services-web-container, 
+    .services-host-container {
+        gap: 40px; /* Reduce gap between cards */
+    }
+
+    .innovative-technology-solutions,
+    .customized-it-strategies,
+    .scalable-growth-solutions,
+    .strategic-partnership,
+    .robust-security-measures,
+    .commitment-to-excellence,
+    .agile-and-adaptive {
+        width: 240px; /* Slightly smaller cards */
+        height: 360px;
+    }
+
+    .services h2 {
+        font-size: 22px;
+    }
+}
+
+/* For screens 800px and below */
+@media screen and (max-width: 800px) {
+    .services-web-container,
+    .services-host-container {
+        flex-direction: column; /* Stack the cards vertically */
+        gap: 30px; /* Reduce gap between stacked cards */
+    }
+
+    .innovative-technology-solutions,
+    .customized-it-strategies,
+    .scalable-growth-solutions,
+    .strategic-partnership,
+    .robust-security-measures,
+    .commitment-to-excellence,
+    .agile-and-adaptive {
+        width: 100%; /* Full width cards */
+        max-width: 600px; /* Max width for larger screens */
+        height: auto; /* Adjust height for responsiveness */
+    }
+
+    .services h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+/* For screens 500px and below (mobile) */
+@media screen and (max-width: 500px) {
+    .services {
+        gap: 10px; /* Reduce gap for smaller screens */
+        margin-top: 20px; /* Less top margin */
+    }
+
+    .services h2 {
+        font-size: 18px; /* Smaller heading */
+    }
+
+    .services-web-container,
+    .services-host-container {
+        gap: 20px; /* Less gap between stacked cards */
+        padding: 20px; /* Less padding for smaller screens */
+    }
+
+    .innovative-technology-solutions,
+    .customized-it-strategies,
+    .scalable-growth-solutions,
+    .strategic-partnership,
+    .robust-security-measures,
+    .commitment-to-excellence,
+    .agile-and-adaptive {
+        width: 100%; /* Full width cards */
+        max-width: 250px; /* Further reduce max width */
+        height: 350px; /* Auto height for mobile */
+        gap: 15px; /* Reduce gap within each card */
+    }
+
+    .innovative-technology-solutions img,
+    .customized-it-strategies img,
+    .scalable-growth-solutions img,
+    .strategic-partnership img,
+    .robust-security-measures img,
+    .commitment-to-excellence img,
+    .agile-and-adaptive img {
+        width: 60px; /* Smaller icons */
+        height: 60px;
+    }
+
+    .innovative-technology-solutions p,
+    .customized-it-strategies p,
+    .scalable-growth-solutions p,
+    .strategic-partnership p,
+    .robust-security-measures p,
+    .commitment-to-excellence p,
+    .agile-and-adaptive p {
+        font-size: 14px; /* Smaller font for mobile */
+        width: 90%; /* Adjust text width */
+    }
+}

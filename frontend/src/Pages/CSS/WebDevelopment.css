@@ -1,0 +1,523 @@
+.web-development {
+    height: auto;
+}
+
+.web-development-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    height: auto;
+}
+
+.web-development-left {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.web-development-left h2 {
+    font-size: 38px;
+    font-weight: 450;
+    color: #004aad;
+}
+
+.web-development-left p {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 900px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.web-development-left button {
+    margin-top: 15px;
+    margin-right: 40px;
+    width: 250px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.web-development-left button :hover {
+    background-color: #004aad;
+    color: white;
+}
+
+.web-development-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+.web-development-right img {
+    width: 550px;
+    height: auto;
+}
+
+.web-development-2 {
+    height: 850px;
+}
+
+.web-dev-2-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-dev-2-left img {
+    width: 550px;
+    height: auto;
+}
+
+.web-dev-2-left p {
+    width: 950px;
+    font-size: 20px;
+}
+
+.web-dev-2-right {
+    display: flex;
+    float: right;
+}
+
+.web-dev-2-right img {
+    width: 450px;
+    margin: -35%;
+    margin-bottom: 20px;
+}
+
+.web-development-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+
+}
+
+.web-dev-title-1 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-dev-title-1 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.web-dev-card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.web-dev-card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.tailored-to-your-business-needs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.cutting-edge-technology {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.responsive-and-mobile-optimized {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.ongoing-support-and-maintenance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.data-security-and-compliance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.scalable-solution-for-growth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.tailored-to-your-business-needs img {
+    width: 70px;
+    height: auto;
+}
+
+.cutting-edge-technology img,
+.responsive-and-mobile-optimized img,
+.ongoing-support-and-maintenance img,
+.data-security-and-compliance img,
+.scalable-solution-for-growth img {
+    width: 90px;
+    height: auto;
+}
+
+.tailored-to-your-business-needs h3,
+.cutting-edge-technology h3,
+.responsive-and-mobile-optimized h3,
+.ongoing-support-and-maintenance h3,
+.data-security-and-compliance h3,
+.scalable-solution-for-growth h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.tailored-to-your-business-needs p,
+.cutting-edge-technology p,
+.responsive-and-mobile-optimized p,
+.ongoing-support-and-maintenance p,
+.data-security-and-compliance p,
+.scalable-solution-for-growth p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.web-dev-button button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.web-development-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+.web-dev-title-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.web-dev-title-2 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-dev-title-2 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1200px;
+    margin-bottom: 40px;
+}
+
+.web-development-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+
+.web-dev-logo-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.web-dev-logo-container-1 img {
+    width: 100px;
+    height: auto;
+}
+
+.web-dev-logo-container-1 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-dev-logo-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.web-dev-logo-container-2 img {
+    width: 100px;
+    height: auto;
+}
+
+.web-dev-logo-container-2 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-dev-logo-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-bottom: 100px;
+}
+
+.web-dev-logo-container-3 img {
+    width: 100px;
+    height: auto;
+}
+
+.web-dev-logo-container-3 h2 {
+    font-size: 26px;
+    color: black;
+}
+/* Original CSS styles */
+.web-development {
+    height: auto;
+}
+
+/* ... (rest of the original CSS) ... */
+
+/* Media Queries */
+@media screen and (max-width: 1280px) {
+    .web-development-left p {
+        width: 600px;
+    }
+
+    .web-dev-title-1 p,
+    .web-dev-title-2 p {
+        width: 90%;
+    }
+
+    .web-dev-card-1,
+    .web-dev-card-2 {
+        flex-wrap: wrap;
+    }
+
+    .web-dev-logo-container-1,
+    .web-dev-logo-container-2,
+    .web-dev-logo-container-3 {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .web-development-1 {
+        flex-direction: column;
+    }
+
+    .web-development-left p {
+        width: 90%;
+    }
+
+    .web-development-right img,
+    .web-dev-2-left img {
+        width: 90%;
+    }
+
+    .web-dev-2-left {
+        flex-direction: column;
+    }
+
+    .web-dev-2-left p {
+        width: 90%;
+    }
+
+    .web-dev-2-right img {
+        width: 90%;
+        margin: 0;
+    }
+
+    .web-dev-logo-container-1,
+    .web-dev-logo-container-2,
+    .web-dev-logo-container-3 {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .web-development-left h2 {
+        font-size: 32px;
+    }
+
+    .web-development-left p,
+    .web-dev-2-left p {
+        font-size: 18px;
+    }
+
+    .tailored-to-your-business-needs,
+    .cutting-edge-technology,
+    .responsive-and-mobile-optimized,
+    .ongoing-support-and-maintenance,
+    .data-security-and-compliance,
+    .scalable-solution-for-growth {
+        width: 90%;
+    }
+
+    .web-dev-logo-container-1 h2,
+    .web-dev-logo-container-2 h2,
+    .web-dev-logo-container-3 h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .web-development-left h2 {
+        font-size: 28px;
+    }
+
+    .web-development-left p,
+    .web-dev-2-left p,
+    .web-dev-title-1 p,
+    .web-dev-title-2 p {
+        font-size: 16px;
+    }
+
+    .web-development-left button {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .tailored-to-your-business-needs,
+    .cutting-edge-technology,
+    .responsive-and-mobile-optimized,
+    .ongoing-support-and-maintenance,
+    .data-security-and-compliance,
+    .scalable-solution-for-growth {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .tailored-to-your-business-needs p,
+    .cutting-edge-technology p,
+    .responsive-and-mobile-optimized p,
+    .ongoing-support-and-maintenance p,
+    .data-security-and-compliance p,
+    .scalable-solution-for-growth p {
+        width: 90%;
+    }
+
+    .web-dev-logo-container-1,
+    .web-dev-logo-container-2,
+    .web-dev-logo-container-3 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .web-dev-logo-container-1 h2,
+    .web-dev-logo-container-2 h2,
+    .web-dev-logo-container-3 h2 {
+        font-size: 20px;
+    }
+}

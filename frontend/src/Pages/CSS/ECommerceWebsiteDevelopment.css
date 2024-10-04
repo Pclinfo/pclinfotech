@@ -1,0 +1,601 @@
+.web-ecom {
+    height: auto;
+}
+
+.web-ecom-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    height: auto;
+}
+
+.web-ecom-left {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.web-ecom-left h2 {
+    font-size: 38px;
+    font-weight: 450;
+    color: #004aad;
+}
+
+.web-ecom-left p {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 900px;
+    height: auto;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.web-ecom-left button {
+    margin-top: 15px;
+    margin-right: 40px;
+    width: 300px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.web-ecom-left button :hover {
+    background-color: #004aad;
+    color: white;
+}
+
+.web-ecom-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+.web-ecom-right img {
+    width: 550px;
+    height: auto;
+}
+
+.web-ecom-2 {
+    height: 850px;
+}
+
+.web-ecom-2-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-ecom-2-left img {
+    width: 550px;
+    height: auto;
+}
+
+.web-ecom-2-left p {
+    width: 950px;
+    font-size: 22px;
+}
+
+.web-ecom-2-right {
+    display: flex;
+    float: right;
+}
+
+.web-ecom-2-right img {
+    width: 450px;
+    margin: -35%;
+    margin-bottom: 20px;
+}
+
+.web-ecom-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+
+}
+
+.web-ecom-title-1 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-ecom-title-1 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.web-ecom-card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.web-ecom-card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.web-ecom-card-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+.web-ecom-card-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.custom-Ecommerce-solutions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.user-friendly-shopping-experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.advanced-payment-integration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.comprehensive-inventory-management {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.mobile-optimized-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.seo-and-marketing-tools {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.scalable-and-flexible-platforms {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.seamless-third-party-integrations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+.robust-security-features{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+.ongoing-support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.custom-Ecommerce-solutions img,
+.user-friendly-shopping-experience img,
+.advanced-payment-integration img,
+.comprehensive-inventory-management img,
+.mobile-optimized-design img,
+.seo-and-marketing-tools img,
+.scalable-and-flexible-platforms img,
+.seamless-third-party-integrations img,
+.robust-security-features img,
+.ongoing-support img {
+    width: 90px;
+    height: auto;
+}
+
+.custom-Ecommerce-solutions h3,
+.user-friendly-shopping-experience h3,
+.advanced-payment-integration h3,
+.comprehensive-inventory-management h3,
+.mobile-optimized-design h3,
+.seo-and-marketing-tools h3,
+.scalable-and-flexible-platforms h3,
+.seamless-third-party-integrations h3,
+.robust-security-features h3,
+.ongoing-support h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.custom-Ecommerce-solutions p,
+.user-friendly-shopping-experience p,
+.advanced-payment-integration p,
+.comprehensive-inventory-management p,
+.mobile-optimized-design p,
+.seo-and-marketing-tools p,
+.scalable-and-flexible-platforms p,
+.seamless-third-party-integrations p,
+.robust-security-features p,
+.ongoing-support p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.web-ecom-button button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.web-ecom-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.web-ecom-title-2 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-ecom-title-2 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.web-ecom-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+
+.web-ecom-logo-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.web-ecom-logo-container-1 img {
+    width: 160px;
+    height: auto;
+}
+
+.web-ecom-logo-container-1 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-ecom-logo-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.web-ecom-logo-container-2 img {
+    width: 160px;
+    height: auto;
+}
+
+.web-ecom-logo-container-2 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-ecom-logo-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.web-ecom-logo-container-3 img {
+    width: 160px;
+    height: auto;
+}
+
+.web-ecom-logo-container-3 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+@media screen and (max-width: 1280px) {
+    .web-ecom-left p {
+        width: 700px;
+    }
+
+    .web-ecom-title-1 p,
+    .web-ecom-title-2 p {
+        width: 90%;
+    }
+
+    .web-ecom-card-1,
+    .web-ecom-card-2,
+    .web-ecom-card-3,
+    .web-ecom-card-4 {
+        flex-wrap: wrap;
+    }
+
+    .web-ecom-logo-container-1,
+    .web-ecom-logo-container-2,
+    .web-ecom-logo-container-3 {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .web-ecom-1 {
+        flex-direction: column;
+    }
+
+    .web-ecom-left p {
+        width: 90%;
+    }
+
+    .web-ecom-right img,
+    .web-ecom-2-left img {
+        width: 90%;
+    }
+
+    .web-ecom-2-left {
+        flex-direction: column;
+    }
+
+    .web-ecom-2-left p {
+        width: 90%;
+    }
+
+    .web-ecom-2-right img {
+        width: 90%;
+        margin: 0;
+    }
+
+    .web-ecom-logo-container-1,
+    .web-ecom-logo-container-2,
+    .web-ecom-logo-container-3 {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .web-ecom-left h2 {
+        font-size: 32px;
+    }
+
+    .web-ecom-left p,
+    .web-ecom-2-left p {
+        font-size: 18px;
+    }
+
+    .custom-Ecommerce-solutions,
+    .user-friendly-shopping-experience,
+    .advanced-payment-integration,
+    .comprehensive-inventory-management,
+    .mobile-optimized-design,
+    .seo-and-marketing-tools,
+    .scalable-and-flexible-platforms,
+    .seamless-third-party-integrations,
+    .robust-security-features,
+    .ongoing-support  {
+        width: 90%;
+    }
+
+    .web-ecom-logo-container-1 h2,
+    .web-ecom-logo-container-2 h2,
+    .web-ecom-logo-container-3 h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .web-ecom-left h2 {
+        font-size: 28px;
+    }
+
+    .web-ecom-left p,
+    .web-ecom-2-left p,
+    .web-ecom-title-1 p,
+    .web-ecom-title-2 p {
+        font-size: 16px;
+    }
+
+    .web-ecom-left button {
+        width: 90%;
+        margin-right: 0;
+    }
+    .custom-Ecommerce-solutions,
+    .user-friendly-shopping-experience,
+    .advanced-payment-integration,
+    .comprehensive-inventory-management,
+    .mobile-optimized-design,
+    .seo-and-marketing-tools,
+    .scalable-and-flexible-platforms,
+    .seamless-third-party-integrations,
+    .robust-security-features,
+    .ongoing-support  {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .custom-Ecommerce-solutions p,
+    .user-friendly-shopping-experience p,
+    .advanced-payment-integration p,
+    .comprehensive-inventory-management p,
+    .mobile-optimized-design p,
+    .seo-and-marketing-tools p,
+    .scalable-and-flexible-platforms p,
+    .seamless-third-party-integrations p,
+    .robust-security-features p,
+    .ongoing-support p  {
+        width: 90%;
+    }
+
+    .web-ecom-logo-container-1,
+    .web-ecom-logo-container-2,
+    .web-ecom-logo-container-3 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .web-ecom-logo-container-1 h2,
+    .web-ecom-logo-container-2 h2,
+    .web-ecom-logo-container-3 h2 {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,535 @@
+.web-opn {
+    height: auto;
+}
+
+.web-opn-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    height: auto;
+}
+
+.web-opn-left {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.web-opn-left h2 {
+    font-size: 38px;
+    font-weight: 450;
+    color: #004aad;
+}
+
+.web-opn-left p {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 900px;
+    height: auto;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.web-opn-left button {
+    margin-top: 15px;
+    margin-right: 40px;
+    width: 350px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.web-opn-left button :hover {
+    background-color: #004aad;
+    color: white;
+}
+
+.web-opn-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+.web-opn-right img {
+    width: 520px;
+    height: auto;
+}
+
+.web-opn-2 {
+    height: 850px;
+}
+
+.web-opn-2-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-opn-2-left img {
+    margin: 5%;
+    width: 550px;
+    height: auto;
+}
+
+.web-opn-2-left p {
+    width: 950px;
+    font-size: 22px;
+}
+
+.web-opn-2-right {
+    display: flex;
+    float: right;
+}
+
+.web-opn-2-right img {
+    width: 450px;
+    margin: -15%;
+    margin-bottom: 20px;
+}
+
+.web-opn-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+
+}
+
+.web-opn-title-1 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-opn-title-1 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.web-opn-card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.web-opn-card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.web-opn-card-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.custom-solutions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.cost-effective-development {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.community-driven-innovation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.scalability-and-flexibility {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.security-and-stability {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.seamless-integrations-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.maintenance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.custom-solutions img,
+.cost-effective-development img,
+.community-driven-innovation img,
+.scalability-and-flexibility img,
+.security-and-stability img,
+.seamless-integrations-1 img,
+.maintenance img {
+    width: 90px;
+    height: auto;
+}
+
+.custom-solutions h3,
+.cost-effective-development h3,
+.community-driven-innovation h3,
+.scalability-and-flexibility h3,
+.security-and-stability h3,
+.seamless-integrations-1 h3,
+.maintenance h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.custom-solutions p,
+.cost-effective-development p,
+.community-driven-innovation p,
+.scalability-and-flexibility p,
+.security-and-stability p,
+.seamless-integrations-1 p,
+.maintenance p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.web-opn-button button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.web-opn-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.web-opn-title-2 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-opn-title-2 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.web-opn-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+
+.web-opn-logo-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.web-opn-logo-container-1 img {
+    width: 100px;
+    height: auto;
+}
+
+.web-opn-logo-container-1 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-opn-logo-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.web-opn-logo-container-2 img {
+    width: 100px;
+    height: auto;
+}
+
+.web-opn-logo-container-2 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-opn-logo-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-bottom: 100px;
+}
+
+.web-opn-logo-container-3 img {
+    width: 100px;
+    height: auto;
+}
+
+.web-opn-logo-container-3 h2 {
+    font-size: 26px;
+    color: black;
+}
+@media screen and (max-width: 1280px) {
+    .web-opn-left p {
+        width: 700px;
+    }
+
+    .web-opn-title-1 p,
+    .web-opn-title-2 p {
+        width: 90%;
+    }
+
+    .web-opn-card-1,
+    .web-opn-card-2,
+    .web-opn-card-3,
+    .web-opn-card-4 {
+        flex-wrap: wrap;
+    }
+
+    .web-opn-logo-container-1,
+    .web-opn-logo-container-2,
+    .web-opn-logo-container-3 {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .web-opn-1 {
+        flex-direction: column;
+    }
+
+    .web-opn-left p {
+        width: 90%;
+    }
+
+    .web-opn-right img,
+    .web-opn-2-left img {
+        width: 90%;
+    }
+
+    .web-opn-2-left {
+        flex-direction: column;
+    }
+
+    .web-opn-2-left p {
+        width: 90%;
+    }
+
+    .web-opn-2-right img {
+        width: 90%;
+        margin: 0;
+    }
+
+    .web-opn-logo-container-1,
+    .web-opn-logo-container-2,
+    .web-opn-logo-container-3 {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .web-opn-left h2 {
+        font-size: 32px;
+    }
+
+    .web-opn-left p,
+    .web-opn-2-left p {
+        font-size: 18px;
+    }
+
+    .custom-solutions,
+    .cost-effective-development,
+    .community-driven-innovation,
+    .scalability-and-flexibility,
+    .security-and-stability,
+    .seamless-integrations-1,
+    .maintenance   {
+        width: 90%;
+    }
+
+    .web-opn-logo-container-1 h2,
+    .web-opn-logo-container-2 h2,
+    .web-opn-logo-container-3 h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .web-opn-left h2 {
+        font-size: 28px;
+    }
+
+    .web-opn-left p,
+    .web-opn-2-left p,
+    .web-opn-title-1 p,
+    .web-opn-title-2 p {
+        font-size: 16px;
+    }
+
+    .web-opn-left button {
+        width: 90%;
+        margin-right: 0;
+    }
+    .custom-solutions,
+    .cost-effective-development,
+    .community-driven-innovation,
+    .scalability-and-flexibility,
+    .security-and-stability,
+    .seamless-integrations-1,
+    .maintenance    {
+        height: auto;
+        padding: 20px 0;
+    }
+    .custom-solutions p,
+    .cost-effective-development p,
+    .community-driven-innovation p,
+    .scalability-and-flexibility p,
+    .security-and-stability p,
+    .seamless-integrations-1 p,
+    .maintenance p{
+        width: 90%;
+    }
+
+    .web-opn-logo-container-1,
+    .web-opn-logo-container-2,
+    .web-opn-logo-container-3 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .web-opn-logo-container-1 h2,
+    .web-opn-logo-container-2 h2,
+    .web-opn-logo-container-3 h2 {
+        font-size: 20px;
+    }
+}

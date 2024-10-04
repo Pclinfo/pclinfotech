@@ -1,0 +1,310 @@
+.tp-insp{
+    height: auto;
+}
+.tp-insp-img-1 img{
+    width: 1700px;
+    height: auto;
+}
+.tp-insp-ctn-title-1 h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tp-insp-ctn-title-1 h2{
+    font-size: 34px;
+    color: #004aad;
+    font-weight: 500;
+}
+.tp-insp-ctn-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+.tp-insp-img-2 img{
+    width: 550px;
+    height: auto;
+}
+.tp-insp-title-1 p{
+   width: 550px;
+   text-align: center;
+   margin-top: 20px;
+   font-size: 16px;
+   font-weight: 500;
+
+}
+.tp-insp-title-1 h4{
+    width: 650px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.tp-insp-title-1 h3{
+    margin-top: 30px;
+    color: #004aad;
+    font-weight: 600;
+}
+.tp-insp-ctn-title-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.tp-insp-ctn-title-2 h2{
+    margin-top: 60px;
+     font-size: 36px;
+     color: #004aad;
+     font-weight: 500
+}
+.tp-insp-ctn-title-2 p{
+     font-size: 18px;
+     font-weight: 600;
+}
+.tp-insp-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.tp-insp-subcard-1{
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+.tp-insp-subcard-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+.stack-develop,
+.ui-ux-desinger-1,
+.hr-intership,
+.data,
+.digital-market{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: auto;
+}
+.stack-develop img,
+.ui-ux-desinger-1 img,
+.hr-intership img,
+.data img,
+.digital-market img{
+    width: 250px;
+    height: auto;
+}
+.stack-develop button,
+.ui-ux-desinger-1 button,
+.hr-intership button,
+.data button,
+.digital-market button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 70px;
+    background-color: #004aad;
+    color: white;
+    border: none;
+    border-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.stack-develop button:hover,
+.ui-ux-desinger-1 button:hover,
+.hr-intership button:hover,
+.data button:hover,
+.digital-market button:hover {
+    background-color: #00308a;
+}
+
+.stack-develop button svg,
+.ui-ux-desinger-1 button svg,
+.hr-intership button svg,
+.data button svg,
+.digital-market button svg {
+    margin-left: 10px;
+    width: 12px;
+    height: 12px;
+}
+.stack-develop h3,
+.ui-ux-desinger-1 h3,
+.hr-intership h3,
+.data h3,
+.digital-market h3{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Base styles remain the same */
+
+/* ... (keep all the original CSS rules here) ... */
+
+/* Media query for screens up to 1280px */
+@media screen and (max-width: 1280px) {
+    .tp-insp-img-1 img {
+      width: 100%;
+    }
+  
+    .tp-insp-ctn-1 {
+      gap: 40px;
+    }
+  
+    .tp-insp-img-2 img {
+      width: 450px;
+    }
+  
+    .tp-insp-title-1 p,
+    .tp-insp-title-1 h4 {
+      width: 450px;
+    }
+  
+    .tp-insp-subcard-1,
+    .tp-insp-subcard-2 {
+      gap: 60px;
+    }
+  
+    .stack-develop,
+    .ui-ux-desinger-1,
+    .hr-intership,
+    .data,
+    .digital-market {
+      width: 300px;
+    }
+  }
+  
+  /* Media query for screens up to 1024px */
+  @media screen and (max-width: 1024px) {
+    .tp-insp-ctn-1 {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .tp-insp-img-2 img {
+      width: 80%;
+    }
+  
+    .tp-insp-title-1 p,
+    .tp-insp-title-1 h4 {
+      width: 80%;
+    }
+  
+    .tp-insp-subcard-1,
+    .tp-insp-subcard-2 {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+  
+    .stack-develop,
+    .ui-ux-desinger-1,
+    .hr-intership,
+    .data,
+    .digital-market {
+      width: 45%;
+    }
+  }
+  
+  /* Media query for screens up to 800px */
+  @media screen and (max-width: 800px) {
+    .tp-insp-ctn-title-1 h2,
+    .tp-insp-ctn-title-2 h2 {
+      font-size: 28px;
+    }
+  
+    .tp-insp-title-1 h4 {
+      font-size: 16px;
+    }
+  
+    .tp-insp-ctn-title-2 p {
+      font-size: 16px;
+    }
+  
+    .stack-develop,
+    .ui-ux-desinger-1,
+    .hr-intership,
+    .data,
+    .digital-market {
+      width: 80%;
+    }
+  
+    .stack-develop img,
+    .ui-ux-desinger-1 img,
+    .hr-intership img,
+    .data img,
+    .digital-market img {
+      width: 200px;
+    }
+  
+    .stack-develop button,
+    .ui-ux-desinger-1 button,
+    .hr-intership button,
+    .data button,
+    .digital-market button {
+      padding: 10px 50px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Media query for screens up to 500px */
+  @media screen and (max-width: 500px) {
+    .tp-insp-ctn-title-1 h2,
+    .tp-insp-ctn-title-2 h2 {
+      font-size: 24px;
+    }
+  
+    .tp-insp-title-1 h3 {
+      font-size: 18px;
+    }
+  
+    .tp-insp-title-1 p,
+    .tp-insp-title-1 h4 {
+      width: 90%;
+      font-size: 14px;
+    }
+  
+    .tp-insp-ctn-title-2 p {
+      font-size: 14px;
+    }
+  
+    .stack-develop,
+    .ui-ux-desinger-1,
+    .hr-intership,
+    .data,
+    .digital-market {
+      width: 90%;
+    }
+  
+    .stack-develop h3,
+    .ui-ux-desinger-1 h3,
+    .hr-intership h3,
+    .data h3,
+    .digital-market h3 {
+      font-size: 18px;
+    }
+  
+    .stack-develop button,
+    .ui-ux-desinger-1 button,
+    .hr-intership button,
+    .data button,
+    .digital-market button {
+      padding: 8px 40px;
+      font-size: 12px;
+    }
+  }

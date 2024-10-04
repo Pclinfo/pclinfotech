@@ -1,0 +1,839 @@
+.dtg-brd-1 {
+    height: auto;
+}
+
+.dtg-brd-main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dtg-brd-main-title p {
+    width: 1200px;
+}
+
+.dtg-brd-title-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    height: auto;
+}
+
+.dtg-brd-title-1 h2 {
+    font-size: 34px;
+    width: 450px;
+}
+
+.dtg-brd-img-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -120px;
+
+}
+
+.dtg-brd-img-1 img {
+    width: 450px;
+    height: auto;
+}
+
+.dtg-brd-title-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 35px;
+    margin-top: -140px;
+}
+
+.dtg-brd-img-1 p {
+    width: 900px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dtg-brd-title-2 button {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    width: 250px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.dtg-brd-title-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dtg-brd-title-3 p {
+    width: 1200px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.dtg-brd-sub-title-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.dtg-brd-sub-title-1 p {
+    width: 1200px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.dtg-brd-img-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.dtg-brd-img-4 img {
+    width: 200px;
+    height: auto;
+}
+
+.dtg-brd-img-4 h2 {
+    margin-bottom: -120px;
+    font-size: 30px;
+
+}
+
+.dtg-brd-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.dtg-brd-card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.dtg-brd-card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.dtg-brd-card-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.brand-strategy-development,
+.visual-identity-creation,
+.brand-messaging,
+.consistency-across-platforms,
+.brand-positioning,
+.brand-guidelines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 45px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.brand-strategy-development img,
+.visual-identity-creation img,
+.brand-messaging img,
+.consistency-across-platforms img,
+.brand-positioning img,
+.brand-guidelines img {
+    width: 90px;
+    height: auto;
+}
+
+.brand-strategy-development h3,
+.visual-identity-creation h3,
+.brand-messaging h3,
+.consistency-across-platforms h3,
+.brand-positioning h3,
+.brand-guidelines h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.brand-strategy-development p,
+.visual-identity-creation p,
+.brand-messaging p,
+.consistency-across-platforms p,
+.brand-positioning p,
+.brand-guidelines p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.dtg-brd-button-1 button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.dtg-brd-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.dtg-brd-title-7 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.dtg-brd-title-7 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.dtg-brd-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+
+.dtg-brd-logo-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.dtg-brd-logo-container-1 img {
+    width: 160px;
+    height: auto;
+}
+
+.dtg-brd-title-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.dtg-brd-title-6 p {
+    margin-bottom: 30px;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dtg-brd-main-title-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.dtg-brd-img-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 120px;
+    margin-top: -20px
+}
+
+.dtg-brd-img-5 img {
+    width: 450px;
+    height: auto;
+}
+
+.dtg-brd-img-5 p {
+    font-size: 22px;
+}
+
+.dtg-brd-main-title-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -160px;
+    gap: 60px;
+}
+
+.dtg-brd-main-title-7 button {
+    margin-top: -25px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    width: 250px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.dtg-brd-main-title-7 p {
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.dtg-brd-ctn-title h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.dtg-brd-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+
+}
+
+.dtg-brd-3 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.dtg-brd-subcard-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.dtg-brd-subcard-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.dtg-brd-subcard-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.custom-design-concepts,
+.brand-alignment,
+.versatility,
+.feedback-and-revisions,
+.high-quality-deliverables {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+
+.custom-design-concepts img,
+.brand-alignment img,
+.versatility img,
+.feedback-and-revisions img,
+.high-quality-deliverables img {
+    width: 90px;
+    height: auto;
+}
+
+.custom-design-concepts h3,
+.brand-alignment h3,
+.versatility h3,
+.feedback-and-revisions h3,
+.high-quality-deliverables h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.custom-design-concepts p,
+.brand-alignment p,
+.versatility p,
+.feedback-and-revisions p,
+.high-quality-deliverables p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.dtg-brd-button-2 button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.dtg-brd-main-title-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.dtg-brd-main-title-8 p {
+    width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.dtg-brd-img-6 {
+    margin-bottom: 30px;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dtg-brd-main-title-9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dtg-brd-main-title-9 p {
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.dtg-brd-main-title-9 button {
+    margin-top: -25px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    width: 250px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.dtg-brd-img-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 120px;
+    margin-top: -20px;
+    margin-left: -190;
+}
+
+.dtg-brd-ctn-title h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.dtg-brd-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.dtg-brd-4 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.dtg-brd-sub-card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.dtg-brd-sub-card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.dtg-brd-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+
+.dtg-brd-logo-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.dtg-brd-logo-container-1 img {
+    width: 90px;
+    height: auto;
+}
+
+.dtg-brd-logo-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.dtg-brd-logo-container-2 img {
+    width: 90px;
+    height: auto;
+}
+
+.dtg-brd-logo-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.dtg-brd-logo-container-3 img {
+    width: 90px;
+    height: auto;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .dtg-brd-main-title p,
+    .dtg-brd-title-3 p,
+    .dtg-brd-sub-title-1 p,
+    .dtg-brd-title-6 p,
+    .dtg-brd-main-title-7 p {
+        width: 90%;
+    }
+
+    .dtg-brd-img-1 p {
+        width: 80%;
+    }
+
+    .dtg-brd-title-7 p {
+        width: 90%;
+    }
+
+    .dtg-brd-ctn {
+        max-width: 90%;
+    }
+
+    .dtg-brd-logo-container-1 {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .dtg-brd-title-1 h2 {
+        width: 90%;
+    }
+
+    .dtg-brd-img-1 {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .dtg-brd-img-1 img {
+        width: 90%;
+    }
+
+    .dtg-brd-title-2 button {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .dtg-brd-img-4 {
+        flex-direction: column;
+    }
+
+    .dtg-brd-card-1,
+    .dtg-brd-card-2,
+    .dtg-brd-card-3,
+    .dtg-brd-subcard-1,
+    .dtg-brd-subcard-2 {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .dtg-brd-img-5 {
+        flex-direction: column;
+        margin: 60px 0;
+    }
+
+    .dtg-brd-img-5 img {
+        width: 90%;
+    }
+
+    .dtg-brd-main-title-7 button {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .dtg-brd-logo-container-1 {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .dtg-brd-title-1 h2 {
+        font-size: 28px;
+    }
+
+    .dtg-brd-img-1 p,
+    .dtg-brd-title-3 p,
+    .dtg-brd-sub-title-1 p,
+    .dtg-brd-title-6 p,
+    .dtg-brd-img-5 p,
+    .dtg-brd-main-title-7 p {
+        font-size: 18px;
+    }
+
+    .dtg-brd-img-4 h2 {
+        font-size: 26px;
+    }
+
+    .brand-strategy-development,
+    .visual-identity-creation,
+    .brand-messaging,
+    .consistency-across-platforms,
+    .brand-positioning,
+    .brand-guidelines,
+    .custom-design-concepts,
+    .brand-alignment,
+    .versatility,
+    .feedback-and-revisions,
+    .high-quality-deliverables {
+        width: 90%;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .dtg-brd-ctn {
+        gap: 20px;
+    }
+
+    .dtg-brd-ctn h3 {
+        font-size: 1.3rem;
+    }
+
+    .dtg-brd-ctn p {
+        font-size: 0.9rem;
+    }
+
+    .dtg-brd-ctn img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dtg-brd-title-1 h2 {
+        font-size: 24px;
+    }
+
+    .dtg-brd-img-1 p,
+    .dtg-brd-title-3 p,
+    .dtg-brd-sub-title-1 p,
+    .dtg-brd-title-6 p,
+    .dtg-brd-img-5 p,
+    .dtg-brd-main-title-7 p {
+        font-size: 16px;
+    }
+
+    .dtg-brd-img-4 h2 {
+        font-size: 22px;
+    }
+
+    .dtg-brd-img-4 img {
+        width: 200px;
+    }
+
+    .brand-strategy-development h3,
+    .visual-identity-creation h3,
+    .brand-messaging h3,
+    .consistency-across-platforms h3,
+    .brand-positioning h3,
+    .brand-guidelines h3,
+    .custom-design-concepts h3,
+    .brand-alignment h3,
+    .versatility h3,
+    .feedback-and-revisions h3,
+    .high-quality-deliverables h3 {
+        font-size: 18px;
+    }
+
+    .brand-strategy-development p,
+    .visual-identity-creation p,
+    .brand-messaging p,
+    .consistency-across-platforms p,
+    .brand-positioning p,
+    .brand-guidelines p,
+    .custom-design-concepts p,
+    .brand-alignment p,
+    .versatility p,
+    .feedback-and-revisions p,
+    .high-quality-deliverables p {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .dtg-brd-button-1 button,
+    .dtg-brd-button-2 button {
+        width: 90%;
+    }
+
+    .dtg-brd-logo-container-1 img {
+        width: 120px;
+    }
+
+    .dtg-brd-ctn {
+        padding: 20px 10px;
+    }
+
+    .dtg-brd-ctn h3 {
+        font-size: 1.2rem;
+    }
+
+    .dtg-brd-ctn p {
+        font-size: 0.8rem;
+    }
+
+    .dtg-brd-ctn img {
+        width: 150px;
+    }
+}

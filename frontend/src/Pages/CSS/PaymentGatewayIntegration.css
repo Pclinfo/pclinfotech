@@ -1,0 +1,534 @@
+.web-pay {
+    height: auto;
+}
+
+.web-pay-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    height: auto;
+}
+
+.web-pay-left {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.web-pay-left h2 {
+    font-size: 38px;
+    font-weight: 450;
+    color: #004aad;
+}
+
+.web-pay-left p {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 900px;
+    height: auto;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.web-pay-left button {
+    margin-top: 15px;
+    margin-right: 40px;
+    width: 350px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.web-pay-left button :hover {
+    background-color: #004aad;
+    color: white;
+}
+
+.web-pay-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+.web-pay-right img {
+    width: 550px;
+    height: auto;
+}
+
+.web-pay-2 {
+    height: 850px;
+}
+
+.web-pay-2-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-pay-2-left img {
+    width: 550px;
+    height: auto;
+}
+
+.web-pay-2-left p {
+    width: 950px;
+    font-size: 22px;
+}
+
+.web-pay-2-right {
+    display: flex;
+    float: right;
+}
+
+.web-pay-2-right img {
+    width: 450px;
+    margin: -35%;
+    margin-bottom: 20px;
+}
+
+.web-pay-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+
+}
+
+.web-pay-title-1 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-pay-title-1 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.web-pay-card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.web-pay-card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.web-pay-card-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.comprehensive-payment-solutions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.security-first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.seamless-user-experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.support-for-recurring-payments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.global-payment-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.compliance-and-best-practices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.ongoing-support-and-optimization {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.comprehensive-payment-solutions img,
+.security-first img,
+.seamless-user-experience img,
+.support-for-recurring-payments img,
+.global-payment-options img,
+.compliance-and-best-practices img,
+.ongoing-support-and-optimization img {
+    width: 90px;
+    height: auto;
+}
+
+.comprehensive-payment-solutions h3,
+.security-first h3,
+.seamless-user-experience h3,
+.support-for-recurring-payments h3,
+.global-payment-options h3,
+.compliance-and-best-practices h3,
+.ongoing-support-and-optimization h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.comprehensive-payment-solutions p,
+.security-first p,
+.seamless-user-experience p,
+.support-for-recurring-payments p,
+.global-payment-options p,
+.compliance-and-best-practices p,
+.ongoing-support-and-optimization p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.web-pay-button button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.web-pay-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.web-pay-title-2 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-pay-title-2 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.web-pay-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+
+.web-pay-logo-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.web-pay-logo-container-1 img {
+    width: 160px;
+    height: auto;
+}
+
+.web-pay-logo-container-1 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-pay-logo-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.web-pay-logo-container-2 img {
+    width: 160px;
+    height: auto;
+}
+
+.web-pay-logo-container-2 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-pay-logo-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.web-pay-logo-container-3 img {
+    width: 160px;
+    height: auto;
+}
+
+.web-pay-logo-container-3 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+@media screen and (max-width: 1280px) {
+    .web-pay-left p {
+        width: 700px;
+    }
+
+    .web-pay-title-1 p,
+    .web-pay-title-2 p {
+        width: 90%;
+    }
+
+    .web-pay-card-1,
+    .web-pay-card-2,
+    .web-pay-card-3,
+    .web-pay-card-4 {
+        flex-wrap: wrap;
+    }
+
+    .web-pay-logo-container-1,
+    .web-pay-logo-container-2,
+    .web-pay-logo-container-3 {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .web-pay-1 {
+        flex-direction: column;
+    }
+
+    .web-pay-left p {
+        width: 90%;
+    }
+
+    .web-pay-right img,
+    .web-pay-2-left img {
+        width: 90%;
+    }
+
+    .web-pay-2-left {
+        flex-direction: column;
+    }
+
+    .web-pay-2-left p {
+        width: 90%;
+    }
+
+    .web-pay-2-right img {
+        width: 90%;
+        margin: 0;
+    }
+
+    .web-pay-logo-container-1,
+    .web-pay-logo-container-2,
+    .web-pay-logo-container-3 {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .web-pay-left h2 {
+        font-size: 32px;
+    }
+
+    .web-pay-left p,
+    .web-pay-2-left p {
+        font-size: 18px;
+    }
+
+    .comprehensive-payment-solutions,
+    .security-first,
+    .seamless-user-experience,
+    .support-for-recurring-payments,
+    .global-payment-options,
+    .compliance-and-best-practices,
+    .ongoing-support-and-optimization    {
+        width: 90%;
+    }
+
+    .web-pay-logo-container-1 h2,
+    .web-pay-logo-container-2 h2,
+    .web-pay-logo-container-3 h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .web-pay-left h2 {
+        font-size: 28px;
+    }
+
+    .web-pay-left p,
+    .web-pay-2-left p,
+    .web-pay-title-1 p,
+    .web-pay-title-2 p {
+        font-size: 16px;
+    }
+
+    .web-pay-left button {
+        width: 90%;
+        margin-right: 0;
+    }
+    .comprehensive-payment-solutions,
+    .security-first,
+    .seamless-user-experience,
+    .support-for-recurring-payments,
+    .global-payment-options,
+    .compliance-and-best-practices,
+    .ongoing-support-and-optimization    {
+        height: auto;
+        padding: 20px 0;
+    }
+    .comprehensive-payment-solutions p,
+    .security-first p,
+    .seamless-user-experience p,
+    .support-for-recurring-payments p,
+    .global-payment-options p,
+    .compliance-and-best-practices p,
+    .ongoing-support-and-optimization p {
+        width: 90%;
+    }
+
+    .web-pay-logo-container-1,
+    .web-pay-logo-container-2,
+    .web-pay-logo-container-3 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .web-pay-logo-container-1 h2,
+    .web-pay-logo-container-2 h2,
+    .web-pay-logo-container-3 h2 {
+        font-size: 20px;
+    }
+}

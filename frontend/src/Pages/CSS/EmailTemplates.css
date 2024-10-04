@@ -1,0 +1,506 @@
+.web-mail {
+    height: auto;
+}
+
+.web-mail-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    height: auto;
+}
+
+.web-mail-left {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.web-mail-left h2 {
+    font-size: 38px;
+    font-weight: 450;
+    color: #004aad;
+}
+
+.web-mail-left p {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 900px;
+    height: auto;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.web-mail-left button {
+    margin-top: 15px;
+    margin-right: 40px;
+    width: 350px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.web-mail-left button :hover {
+    background-color: #004aad;
+    color: white;
+}
+
+.web-mail-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+.web-mail-right img {
+    width: 550px;
+    height: auto;
+}
+
+.web-mail-2 {
+    height: 850px;
+}
+
+.web-mail-2-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-mail-2-left img {
+    width: 550px;
+    height: auto;
+}
+
+.web-mail-2-left p {
+    width: 950px;
+    font-size: 24px;
+}
+
+.web-mail-2-right {
+    display: flex;
+    float: right;
+}
+
+.web-mail-2-right img {
+    width: 450px;
+    margin: -35%;
+    margin-bottom: 20px;
+}
+
+.web-mail-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+
+}
+
+.web-mail-title-1 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-mail-title-1 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.web-mail-card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.web-mail-card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.brand-consistency {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.responsive-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.high-engagement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.customizable-and-flexible {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.tested-for-compatibility {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.ongoing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.brand-consistency img,
+.responsive-design img,
+.high-engagement img,
+.customizable-and-flexible img,
+.tested-for-compatibility img,
+.ongoing img {
+    width: 90px;
+    height: auto;
+}
+
+.brand-consistency h3,
+.responsive-design h3,
+.high-engagement h3,
+.customizable-and-flexible h3,
+.tested-for-compatibility h3,
+.ongoing h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.brand-consistency p,
+.responsive-design p,
+.high-engagement p,
+.customizable-and-flexible p,
+.tested-for-compatibility p,
+.ongoing p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.web-mail-button button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.web-mail-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.web-mail-title-2 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-mail-title-2 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.web-mail-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+
+.web-mail-logo-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.web-mail-logo-container-1 img {
+    width: 160px;
+    height: auto;
+}
+
+.web-mail-logo-container-1 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-mail-logo-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.web-mail-logo-container-2 img {
+    width: 160px;
+    height: auto;
+}
+
+.web-mail-logo-container-2 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-mail-logo-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.web-mail-logo-container-3 img {
+    width: 160px;
+    height: auto;
+}
+
+.web-mail-logo-container-3 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+@media screen and (max-width: 1280px) {
+    .web-mail-left p {
+        width: 700px;
+    }
+
+    .web-mail-title-1 p,
+    .web-mail-title-2 p {
+        width: 90%;
+    }
+
+    .web-mail-card-1,
+    .web-mail-card-2,
+    .web-mail-card-3,
+    .web-mail-card-4 {
+        flex-wrap: wrap;
+    }
+
+    .web-mail-logo-container-1,
+    .web-mail-logo-container-2,
+    .web-mail-logo-container-3 {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .web-mail-1 {
+        flex-direction: column;
+    }
+
+    .web-mail-left p {
+        width: 90%;
+    }
+
+    .web-mail-right img,
+    .web-mail-2-left img {
+        width: 90%;
+    }
+
+    .web-mail-2-left {
+        flex-direction: column;
+    }
+
+    .web-mail-2-left p {
+        width: 90%;
+    }
+
+    .web-mail-2-right img {
+        width: 90%;
+        margin: 0;
+    }
+
+    .web-mail-logo-container-1,
+    .web-mail-logo-container-2,
+    .web-mail-logo-container-3 {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .web-mail-left h2 {
+        font-size: 32px;
+    }
+
+    .web-mail-left p,
+    .web-mail-2-left p {
+        font-size: 18px;
+    }
+
+    .brand-consistency,
+    .responsive-design,
+    .high-engagement,
+    .customizable-and-flexible,
+    .tested-for-compatibility,
+    .ongoing   {
+        width: 90%;
+    }
+
+    .web-mail-logo-container-1 h2,
+    .web-mail-logo-container-2 h2,
+    .web-mail-logo-container-3 h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .web-mail-left h2 {
+        font-size: 28px;
+    }
+
+    .web-mail-left p,
+    .web-mail-2-left p,
+    .web-mail-title-1 p,
+    .web-mail-title-2 p {
+        font-size: 16px;
+    }
+
+    .web-mail-left button {
+        width: 90%;
+        margin-right: 0;
+    }
+    .brand-consistency,
+    .responsive-design,
+    .high-engagement,
+    .customizable-and-flexible,
+    .tested-for-compatibility,
+    .ongoing  {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .brand-consistency p,
+    .responsive-design p,
+    .high-engagement p,
+    .customizable-and-flexible p,
+    .tested-for-compatibility p,
+    .ongoing p  {
+        width: 90%;
+    }
+
+    .web-mail-logo-container-1,
+    .web-mail-logo-container-2,
+    .web-mail-logo-container-3 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .web-mail-logo-container-1 h2,
+    .web-mail-logo-container-2 h2,
+    .web-mail-logo-container-3 h2 {
+        font-size: 20px;
+    }
+}

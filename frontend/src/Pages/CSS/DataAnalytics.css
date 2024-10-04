@@ -1,0 +1,1020 @@
+.da-cs {
+    height: auto;
+}
+
+.da-cs-title-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    gap: 40px;
+}
+
+.da-cs-title-1 h2 {
+    font-size: 34px;
+}
+
+.da-cs-title-1 p {
+    width: 950px;
+    font-size: 18px;
+}
+
+.da-cs-button-1 button {
+    margin-left: 40px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.da-cs-subtitle-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+    gap: 40px;
+}
+
+.da-cs-subtitle-1 h2 {
+    font-size: 34px;
+}
+
+.da-cs-subtitle-1 p {
+    width: 950px;
+    font-size: 18px;
+}
+
+.da-cs-ctn-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 260px;
+    margin-top: 80px;
+
+}
+
+.da-cs-ctn-title-2 h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.da-cs-ctn-title-2 p {
+    width: 550px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.da-cs-ctn-title-2 button {
+    width: 120px;
+    height: 40px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.da-cs-ctn-img-1 img {
+    width: 550px;
+    height: auto;
+}
+
+.da-cs-subcard-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.da-cs-subcard-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.process-optimization,
+.cost-reduction,
+.performance-metrics,
+.change-management {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.process-optimization img,
+.cost-reduction img,
+.performance-metrics img,
+.change-management img {
+    width: 90px;
+    height: auto;
+}
+
+.process-optimization h3,
+.cost-reduction h3,
+.performance-metrics h3,
+.change-management h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.process-optimization p,
+.cost-reduction p,
+.performance-metrics p,
+.change-management p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.da-cs-ctn-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 260px;
+    margin-top: 80px;
+}
+
+.da-cs-ctn-title-3 h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.da-cs-ctn-title-3 p {
+    width: 550px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.da-cs-ctn-title-3 button {
+    width: 120px;
+    height: 40px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.da-cs-ctn-img-2 img {
+    width: 550px;
+    height: auto;
+}
+
+.da-cs-subcard-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.da-cs-subcard-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.customer-journey-mapping,
+.marketing-automation,
+.personalization-strategies,
+.customer-retention {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.customer-journey-mapping img,
+.marketing-automation img,
+.personalization-strategies img,
+.customer-retention img {
+    width: 90px;
+    height: auto;
+}
+
+.customer-journey-mapping h3,
+.marketing-automation h3,
+.personalization-strategies h3,
+.customer-retention h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.customer-journey-mapping p,
+.marketing-automation p,
+.personalization-strategies p,
+.customer-retention p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.da-cs-ctn-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 260px;
+    margin-top: 80px;
+}
+
+.da-cs-ctn-title-4 h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.da-cs-ctn-title-4 p {
+    width: 550px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.da-cs-ctn-title-4 button {
+    width: 120px;
+    height: 40px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.da-cs-ctn-img-3 img {
+    width: 550px;
+    height: auto;
+}
+
+.da-cs-subcard-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.da-cs-subcard-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.it-modernization,
+.security-enhancements,
+.performance-optimization,
+.technology-alignment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.it-modernization img,
+.security-enhancements img,
+.performance-optimization img,
+.technology-alignment img {
+    width: 90px;
+    height: auto;
+}
+.it-modernization h3,
+.security-enhancements h3,
+.performance-optimization h3,
+.technology-alignment h3{
+    text-align: center;
+    font-size: 20px;
+}
+.it-modernization p,
+.security-enhancements p,
+.performance-optimization p,
+.technology-alignment p{
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+.da-cs-ctn-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 260px;
+    margin-top: 80px;
+
+}
+.da-cs-ctn-title-4 h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.da-cs-ctn-title-4 p{
+    width: 550px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.da-cs-ctn-title-4 button{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+.da-cs-ctn-img-4 img{
+    width: 550px;
+    height: auto;
+}
+.da-cs-subcard-7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+.da-cs-subcard-8{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+.digital-strategy-development,
+.cloud-integration,
+.data-driven-insights,
+.automation-solutions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+.digital-strategy-development img,
+.cloud-integration img,
+.data-driven-insights img,
+.automation-solutions img{
+    width: 90px;
+    height: auto;
+}
+.digital-strategy-development h3,
+.cloud-integration h3,
+.data-driven-insights h3,
+.automation-solutions h3{
+    text-align: center;
+    font-size: 20px;
+}
+.digital-strategy-development p,
+.cloud-integration p,
+.data-driven-insights p,
+.automation-solutions p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+.da-cs-ctn-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 260px;
+    margin-top: 80px;
+}
+.da-cs-ctn-title-5 h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.da-cs-ctn-title-5 p{
+    width: 550px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.da-cs-ctn-title-5 button{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+.da-cs-ctn-img-5 img{
+    width: 550px;
+    height: auto;
+}
+.da-cs-subcard-9{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+.da-cs-subcard-10{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+.talent-acquisition,
+.workforce-planning,
+.employee-engagement,
+.leadership-development {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+.talent-acquisition img,
+.workforce-planning img,
+.employee-engagement img,
+.leadership-development img {
+    width: 90px;
+    height: auto;
+}
+.talent-acquisition h3,
+.workforce-planning h3,
+.employee-engagement h3,
+.leadership-development h3  {
+    text-align: center;
+    font-size: 20px;
+}
+.talent-acquisition p,
+.workforce-planning p,
+.employee-engagement p,
+.leadership-development p{
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+} 
+.da-cs-ctn-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 260px;
+    margin-top: 80px;
+} 
+.da-cs-ctn-title-6 h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.da-cs-ctn-title-6 p {
+    width: 550px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.da-cs-ctn-title-6 button {
+    width: 120px;
+    height: 40px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+.da-cs-ctn-img-6 img{
+    width: 550px;
+    height: auto;
+}
+.da-cs-subcard-11{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+.da-cs-subcard-12{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+.regulatory-compliance,
+.operational-risk-management,
+.business-continuity-planning,
+.cyber-risk-mitigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+.regulatory-compliance img,
+.operational-risk-management img,
+.business-continuity-planning img,
+.cyber-risk-mitigation img{
+    width: 90px;
+    height: auto;
+}
+.regulatory-compliance h3,
+.operational-risk-management h3,
+.business-continuity-planning h3,
+.cyber-risk-mitigation h3{
+    text-align: center;
+    font-size: 20px;
+}
+.regulatory-compliance p,
+.operational-risk-management p,
+.business-continuity-planning p,
+.cyber-risk-mitigation p{
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+.da-cs-ctn-7{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 260px;
+    margin-top: 80px;
+}
+.da-cs-ctn-title-13 h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.da-cs-ctn-title-13 p{
+    width: 550px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.da-cs-ctn-title-13 button{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+.da-cs-ctn-img-7 img{
+    width: 550px;
+    height: auto;
+}
+.da-cs-subcard-13{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+.da-cs-subcard-14{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+.it-strategy-development,
+.governance-compliance,
+.vendor-management,
+.it-performance-monitoring
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+.it-strategy-development img,
+.governance-compliance img,
+.vendor-management img,
+.it-performance-monitoring img{
+    width: 90px;
+    height: auto;
+}
+.it-strategy-development h3,
+.governance-compliance h3,
+.vendor-management h3,
+.it-performance-monitoring h3 {
+    text-align: center;
+    font-size: 20px;
+}
+.it-strategy-development p,
+.governance-compliance p,
+.vendor-management p,
+.it-performance-monitoring p{
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+.da-cs-ctn-8{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 260px;
+    margin-top: 80px;
+}
+.da-cs-ctn-title-14 h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.da-cs-ctn-title-14 p{
+    width: 550px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.da-cs-ctn-title-14 button{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+.da-cs-ctn-img-8 img{
+    width: 550px;
+    height: auto;
+}
+.da-cs-main-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    margin-bottom: 100px;
+    
+}
+.da-cs-con-1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;    
+}
+.da-cs-con-1 h2{
+   font-size: 28px;
+   color: #004aad;
+   margin-bottom: 20px;
+}
+.da-cs-con-1 p{
+    width: 550px;
+    font-size: 16px;
+}
+.da-cs-con-1 img{
+    width: 450px;
+    height: auto;
+}
+.da-cs-con-title-1{
+    width: 550px;
+    text-align: center;
+    gap: 30px;
+    
+}
+.da-cs-con-title-1 h3{
+    margin-top: 60px;
+}
+/* Base styles remain the same */
+
+/* Media query for screens up to 1280px */
+@media screen and (max-width: 1280px) {
+    .da-cs-title-1 p,
+    .da-cs-subtitle-1 p {
+      width: 80%;
+    }
+  
+    .da-cs-ctn-1,
+    .da-cs-ctn-2,
+    .da-cs-ctn-3,
+    .da-cs-ctn-4,
+    .da-cs-ctn-5,
+    .da-cs-ctn-6,
+    .da-cs-ctn-7,
+    .da-cs-ctn-8 {
+      gap: 100px;
+    }
+  
+    .da-cs-ctn-title-2 p,
+    .da-cs-ctn-title-3 p,
+    .da-cs-ctn-title-4 p,
+    .da-cs-ctn-title-5 p,
+    .da-cs-ctn-title-6 p,
+    .da-cs-ctn-title-13 p,
+    .da-cs-ctn-title-14 p {
+      width: 450px;
+    }
+  
+    .da-cs-ctn-img-1 img,
+    .da-cs-ctn-img-2 img,
+    .da-cs-ctn-img-3 img,
+    .da-cs-ctn-img-4 img,
+    .da-cs-ctn-img-5 img,
+    .da-cs-ctn-img-6 img,
+    .da-cs-ctn-img-7 img,
+    .da-cs-ctn-img-8 img {
+      width: 450px;
+    }
+  
+    .da-cs-main-1 {
+      gap: 100px;
+    }
+  
+    .da-cs-con-1 p,
+    .da-cs-con-title-1 {
+      width: 450px;
+    }
+  }
+  
+  /* Media query for screens up to 1024px */
+  @media screen and (max-width: 1024px) {
+    .da-cs-title-1,
+    .da-cs-subtitle-1 {
+      margin-top: 80px;
+    }
+  
+    .da-cs-ctn-1,
+    .da-cs-ctn-2,
+    .da-cs-ctn-3,
+    .da-cs-ctn-4,
+    .da-cs-ctn-5,
+    .da-cs-ctn-6,
+    .da-cs-ctn-7,
+    .da-cs-ctn-8 {
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .da-cs-subcard-1,
+    .da-cs-subcard-2,
+    .da-cs-subcard-3,
+    .da-cs-subcard-4,
+    .da-cs-subcard-5,
+    .da-cs-subcard-6,
+    .da-cs-subcard-7,
+    .da-cs-subcard-8,
+    .da-cs-subcard-9,
+    .da-cs-subcard-10,
+    .da-cs-subcard-11,
+    .da-cs-subcard-12,
+    .da-cs-subcard-13,
+    .da-cs-subcard-14 {
+      flex-wrap: wrap;
+    }
+  
+    .da-cs-main-1 {
+      flex-direction: column;
+    }
+  }
+  
+  /* Media query for screens up to 800px */
+  @media screen and (max-width: 800px) {
+    .da-cs-title-1 h2,
+    .da-cs-subtitle-1 h2 {
+      font-size: 28px;
+    }
+  
+    .da-cs-title-1 p,
+    .da-cs-subtitle-1 p {
+      width: 90%;
+      font-size: 16px;
+    }
+  
+    .da-cs-ctn-title-2 h3,
+    .da-cs-ctn-title-3 h3,
+    .da-cs-ctn-title-4 h3,
+    .da-cs-ctn-title-5 h3,
+    .da-cs-ctn-title-6 h3,
+    .da-cs-ctn-title-13 h3,
+    .da-cs-ctn-title-14 h3 {
+      font-size: 24px;
+    }
+  
+    .da-cs-ctn-title-2 p,
+    .da-cs-ctn-title-3 p,
+    .da-cs-ctn-title-4 p,
+    .da-cs-ctn-title-5 p,
+    .da-cs-ctn-title-6 p,
+    .da-cs-ctn-title-13 p,
+    .da-cs-ctn-title-14 p {
+      width: 90%;
+      font-size: 16px;
+    }
+  
+    .da-cs-ctn-img-1 img,
+    .da-cs-ctn-img-2 img,
+    .da-cs-ctn-img-3 img,
+    .da-cs-ctn-img-4 img,
+    .da-cs-ctn-img-5 img,
+    .da-cs-ctn-img-6 img,
+    .da-cs-ctn-img-7 img,
+    .da-cs-ctn-img-8 img {
+      width: 90%;
+    }
+  
+    .process-optimization,
+    .cost-reduction,
+    .performance-metrics,
+    .change-management,
+    .customer-journey-mapping,
+    .marketing-automation,
+    .personalization-strategies,
+    .customer-retention,
+    .it-modernization,
+    .security-enhancements,
+    .performance-optimization,
+    .technology-alignment,
+    .digital-strategy-development,
+    .cloud-integration,
+    .data-driven-insights,
+    .automation-solutions,
+    .talent-acquisition,
+    .workforce-planning,
+    .employee-engagement,
+    .leadership-development,
+    .regulatory-compliance,
+    .operational-risk-management,
+    .business-continuity-planning,
+    .cyber-risk-mitigation,
+    .it-strategy-development,
+    .governance-compliance,
+    .vendor-management,
+    .it-performance-monitoring {
+      width: 90%;
+      height: auto;
+      padding: 20px;
+    }
+  }
+  
+  /* Media query for screens up to 500px */
+  @media screen and (max-width: 500px) {
+    .da-cs-title-1,
+    .da-cs-subtitle-1 {
+      margin-top: 60px;
+      gap: 20px;
+    }
+  
+    .da-cs-title-1 h2,
+    .da-cs-subtitle-1 h2 {
+      font-size: 24px;
+    }
+  
+    .da-cs-title-1 p,
+    .da-cs-subtitle-1 p {
+      font-size: 14px;
+    }
+  
+    .da-cs-button-1 button,
+    .da-cs-ctn-title-2 button,
+    .da-cs-ctn-title-3 button,
+    .da-cs-ctn-title-4 button,
+    .da-cs-ctn-title-5 button,
+    .da-cs-ctn-title-6 button,
+    .da-cs-ctn-title-13 button,
+    .da-cs-ctn-title-14 button {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .da-cs-ctn-title-2 h3,
+    .da-cs-ctn-title-3 h3,
+    .da-cs-ctn-title-4 h3,
+    .da-cs-ctn-title-5 h3,
+    .da-cs-ctn-title-6 h3,
+    .da-cs-ctn-title-13 h3,
+    .da-cs-ctn-title-14 h3 {
+      font-size: 20px;
+    }
+  
+    .da-cs-ctn-title-2 p,
+    .da-cs-ctn-title-3 p,
+    .da-cs-ctn-title-4 p,
+    .da-cs-ctn-title-5 p,
+    .da-cs-ctn-title-6 p,
+    .da-cs-ctn-title-13 p,
+    .da-cs-ctn-title-14 p {
+      font-size: 14px;
+    }
+  
+    .da-cs-con-1 h2 {
+      font-size: 24px;
+    }
+  
+    .da-cs-con-1 p,
+    .da-cs-con-title-1 {
+      width: 100%;
+      font-size: 14px;
+    }
+  
+    .da-cs-con-1 img {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,826 @@
+.dtg-pd-1 {
+    height: auto;
+}
+
+.dtg-pd-main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dtg-pd-main-title p {
+    width: 1200px;
+}
+
+.dtg-pd-title-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    height: auto;
+}
+
+.dtg-pd-title-1 h2 {
+    font-size: 34px;
+    width: 450px;
+}
+
+.dtg-pd-img-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -120px;
+
+}
+
+.dtg-pd-img-1 img {
+    width: 450px;
+    height: auto;
+}
+
+.dtg-pd-title-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 35px;
+    margin-top: -140px;
+}
+
+.dtg-pd-img-1 p {
+    width: 900px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dtg-pd-title-2 button {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    width: 250px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.dtg-pd-title-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dtg-pd-title-3 p {
+    width: 1200px;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.dtg-pd-sub-title-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.dtg-pd-sub-title-1 p {
+    width: 1200px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.dtg-pd-img-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.dtg-pd-img-4 img {
+    width: 200px;
+    height: auto;
+}
+
+.dtg-pd-img-4 h2 {
+    margin-bottom: -120px;
+    font-size: 30px;
+
+}
+
+.dtg-pd-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.dtg-pd-card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.dtg-pd-card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.dtg-pd-card-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.concept,
+.user-centered-design,
+.wireframing-prototyping,
+.ui-design,
+.iterative-design-testing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 45px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.concept img,
+.user-centered-design img,
+.wireframing-prototyping img,
+.ui-design img,
+.iterative-design-testing img {
+    width: 90px;
+    height: auto;
+}
+
+.concept h3,
+.user-centered-design h3,
+.wireframing-prototyping h3,
+.ui-design h3,
+.iterative-design-testing h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.concept p,
+.user-centered-design p,
+.wireframing-prototyping p,
+.ui-design p,
+.iterative-design-testing p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.dtg-pd-button-1 button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.dtg-pd-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.dtg-pd-title-7 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.dtg-pd-title-7 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.dtg-pd-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+
+.dtg-pd-logo-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.dtg-pd-logo-container-1 img {
+    width: 160px;
+    height: auto;
+}
+
+.dtg-pd-title-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.dtg-pd-title-6 p {
+    margin-bottom: 30px;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dtg-pd-main-title-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.dtg-pd-img-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 120px;
+    margin-top: -20px
+}
+
+.dtg-pd-img-5 img {
+    width: 450px;
+    height: auto;
+}
+
+.dtg-pd-img-5 p {
+    font-size: 22px;
+}
+
+.dtg-pd-main-title-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -160px;
+    gap: 60px;
+}
+
+.dtg-pd-main-title-7 button {
+    margin-top: -25px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    width: 250px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.dtg-pd-main-title-7 p {
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.dtg-pd-ctn-title h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.dtg-pd-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+
+}
+
+.dtg-pd-3 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.dtg-pd-subcard-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.dtg-pd-subcard-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.dtg-pd-subcard-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.tailored-solutions,
+.focus-on-usability,
+.collaborative-process,
+.expert-team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.tailored-solutions img,
+.focus-on-usability img,
+.collaborative-process img,
+.expert-team img {
+    width: 90px;
+    height: auto;
+}
+
+.tailored-solutions h3,
+.focus-on-usability h3,
+.collaborative-process h3,
+.expert-team h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.tailored-solutions p,
+.focus-on-usability p,
+.collaborative-process p,
+.expert-team p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.dtg-pd-button-2 button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.dtg-pd-main-title-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.dtg-pd-main-title-8 p {
+    width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.dtg-pd-img-6 {
+    margin-bottom: 30px;
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dtg-pd-main-title-9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dtg-pd-main-title-9 p {
+    width: 1200px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.dtg-pd-main-title-9 button {
+    margin-top: -25px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    width: 250px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.dtg-pd-img-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 120px;
+    margin-top: -20px;
+    margin-left: -190;
+}
+
+.dtg-pd-ctn-title h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.dtg-pd-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.dtg-pd-4 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.dtg-pd-sub-card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.dtg-pd-sub-card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.dtg-pd-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+
+.dtg-pd-logo-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.dtg-pd-logo-container-1 img {
+    width: 90px;
+    height: auto;
+}
+
+.dtg-pd-logo-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.dtg-pd-logo-container-2 img {
+    width: 90px;
+    height: auto;
+}
+
+.dtg-pd-logo-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-bottom: 100px;
+}
+
+.dtg-pd-logo-container-3 img {
+    width: 90px;
+    height: auto;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1280px) {
+
+    .dtg-pd-main-title p,
+    .dtg-pd-title-3 p,
+    .dtg-pd-sub-title-1 p,
+    .dtg-pd-title-6 p,
+    .dtg-pd-main-title-7 p {
+        width: 90%;
+    }
+
+    .dtg-pd-img-1 p {
+        width: 80%;
+    }
+
+    .dtg-pd-title-7 p {
+        width: 90%;
+    }
+
+    .dtg-pd-ctn {
+        max-width: 90%;
+    }
+
+    .dtg-pd-logo-container-1 {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .dtg-pd-title-1 h2 {
+        width: 90%;
+    }
+
+    .dtg-pd-img-1 {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .dtg-pd-img-1 img {
+        width: 90%;
+    }
+
+    .dtg-pd-title-2 button {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .dtg-pd-img-4 {
+        flex-direction: column;
+    }
+
+    .dtg-pd-card-1,
+    .dtg-pd-card-2,
+    .dtg-pd-card-3,
+    .dtg-pd-subcard-1,
+    .dtg-pd-subcard-2 {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .dtg-pd-img-5 {
+        flex-direction: column;
+        margin: 60px 0;
+    }
+
+    .dtg-pd-img-5 img {
+        width: 90%;
+    }
+
+    .dtg-pd-main-title-7 button {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    .dtg-pd-logo-container-1 {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .dtg-pd-title-1 h2 {
+        font-size: 28px;
+    }
+
+    .dtg-pd-img-1 p,
+    .dtg-pd-title-3 p,
+    .dtg-pd-sub-title-1 p,
+    .dtg-pd-title-6 p,
+    .dtg-pd-img-5 p,
+    .dtg-pd-main-title-7 p {
+        font-size: 18px;
+    }
+
+    .dtg-pd-img-4 h2 {
+        font-size: 26px;
+    }
+
+    .concept,
+    .user-centered-design,
+    .wireframing-prototyping,
+    .ui-design,
+    .iterative-design-testing,
+    .tailored-solutions,
+    .focus-on-usability,
+    .collaborative-process,
+    .expert-team {
+        width: 90%;
+        height: auto;
+        padding: 30px 0;
+    }
+
+    .dtg-pd-ctn {
+        gap: 20px;
+    }
+
+    .dtg-pd-ctn h3 {
+        font-size: 1.3rem;
+    }
+
+    .dtg-pd-ctn p {
+        font-size: 0.9rem;
+    }
+
+    .dtg-pd-ctn img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dtg-pd-title-1 h2 {
+        font-size: 24px;
+    }
+
+    .dtg-pd-img-1 p,
+    .dtg-pd-title-3 p,
+    .dtg-pd-sub-title-1 p,
+    .dtg-pd-title-6 p,
+    .dtg-pd-img-5 p,
+    .dtg-pd-main-title-7 p {
+        font-size: 16px;
+    }
+
+    .dtg-pd-img-4 h2 {
+        font-size: 22px;
+    }
+
+    .dtg-pd-img-4 img {
+        width: 200px;
+    }
+
+    .concept h3,
+    .user-centered-design h3,
+    .wireframing-prototyping h3,
+    .ui-design h3,
+    .iterative-design-testing h3,
+    .tailored-solutions h3,
+    .focus-on-usability h3,
+    .collaborative-process h3,
+    .expert-team h3 {
+        font-size: 18px;
+    }
+
+    .concept p,
+    .user-centered-design p,
+    .wireframing-prototyping p,
+    .ui-design p,
+    .iterative-design-testing p,
+    .tailored-solutions p,
+    .focus-on-usability p,
+    .collaborative-process p,
+    .expert-team p {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .dtg-pd-button-1 button,
+    .dtg-pd-button-2 button {
+        width: 90%;
+    }
+
+    .dtg-pd-logo-container-1 img {
+        width: 120px;
+    }
+
+    .dtg-pd-ctn {
+        padding: 20px 10px;
+    }
+
+    .dtg-pd-ctn h3 {
+        font-size: 1.2rem;
+    }
+
+    .dtg-pd-ctn p {
+        font-size: 0.8rem;
+    }
+
+    .dtg-pd-ctn img {
+        width: 150px;
+    }
+}

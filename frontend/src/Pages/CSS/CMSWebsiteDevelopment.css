@@ -1,0 +1,514 @@
+.web-cms {
+    height: auto;
+}
+
+.web-cms-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    height: auto;
+}
+
+.web-cms-left {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.web-cms-left h2 {
+    font-size: 38px;
+    font-weight: 450;
+    color: #004aad;
+}
+
+.web-cms-left p {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 900px;
+    height: auto;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.web-cms-left button {
+    margin-top: 15px;
+    margin-right: 40px;
+    width: 250px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.web-cms-left button :hover {
+    background-color: #004aad;
+    color: white;
+}
+
+.web-cms-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+.web-cms-right img {
+    width: 450px;
+    height: auto;
+}
+
+.web-cms-2 {
+    height: 850px;
+}
+
+.web-cms-2-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-cms-2-left img {
+    width: 550px;
+    height: auto;
+}
+
+.web-cms-2-left p {
+    width: 950px;
+    font-size: 22px;
+}
+
+.web-cms-2-right {
+    display: flex;
+    float: right;
+}
+
+.web-cms-2-right img {
+    width: 450px;
+    margin: -35%;
+    margin-bottom: 20px;
+}
+
+.web-cms-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+
+}
+
+.web-cms-title-1 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-cms-title-1 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.web-cms-card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.web-cms-card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.web-cms-card-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.user-friendly-management {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.custom-tailored-solutions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.scalable-and-flexible {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.robust-security-feature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.integration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.ongoing-support-and-training {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.user-friendly-management img,
+.custom-tailored-solutions img,
+.scalable-and-flexible img,
+.robust-security-feature img,
+.integration img,
+.ongoing-support-and-training img {
+    width: 90px;
+    height: auto;
+}
+
+.user-friendly-management h3,
+.custom-tailored-solutions h3,
+.scalable-and-flexible h3,
+.robust-security-feature h3,
+.integration h3,
+.ongoing-support-and-training h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.user-friendly-management p,
+.custom-tailored-solutions p,
+.scalable-and-flexible p,
+.robust-security-feature p,
+.integration p,
+.ongoing-support-and-training p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.web-cms-button button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.web-cms-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.web-cms-title-2 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-cms-title-2 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.web-cms-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+
+.web-cms-logo-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.web-cms-logo-container-1 img {
+    width: 160px;
+    height: auto;
+}
+
+.web-cms-logo-container-1 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-cms-logo-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.web-cms-logo-container-2 img {
+    width: 160px;
+    height: auto;
+}
+
+.web-cms-logo-container-2 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-cms-logo-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.web-cms-logo-container-3 img {
+    width: 160px;
+    height: auto;
+}
+
+.web-cms-logo-container-3 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+@media screen and (max-width: 1280px) {
+    .web-cms-left p {
+        width: 700px;
+    }
+
+    .web-cms-title-1 p,
+    .web-cms-title-2 p {
+        width: 90%;
+    }
+
+    .web-cms-card-1,
+    .web-cms-card-2,
+    .web-cms-card-3,
+    .web-cms-card-4 {
+        flex-wrap: wrap;
+    }
+
+    .web-cms-logo-container-1,
+    .web-cms-logo-container-2,
+    .web-cms-logo-container-3 {
+        gap: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .web-cms-1 {
+        flex-direction: column;
+    }
+
+    .web-cms-left p {
+        width: 90%;
+    }
+
+    .web-cms-right img,
+    .web-cms-2-left img {
+        width: 90%;
+    }
+
+    .web-cms-2-left {
+        flex-direction: column;
+    }
+
+    .web-cms-2-left p {
+        width: 90%;
+    }
+
+    .web-cms-2-right img {
+        width: 90%;
+        margin: 0;
+    }
+
+    .web-cms-logo-container-1,
+    .web-cms-logo-container-2,
+    .web-cms-logo-container-3 {
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .web-cms-left h2 {
+        font-size: 32px;
+    }
+
+    .web-cms-left p,
+    .web-cms-2-left p {
+        font-size: 18px;
+    }
+
+    .user-friendly-management,
+    .custom-tailored-solutions,
+    .scalable-and-flexible,
+    .robust-security-feature,
+    .integration,
+    .ongoing-support-and-training   {
+        width: 90%;
+    }
+
+    .web-cms-logo-container-1 h2,
+    .web-cms-logo-container-2 h2,
+    .web-cms-logo-container-3 h2 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .web-cms-left h2 {
+        font-size: 28px;
+    }
+
+    .web-cms-left p,
+    .web-cms-2-left p,
+    .web-cms-title-1 p,
+    .web-cms-title-2 p {
+        font-size: 16px;
+    }
+
+    .web-cms-left button {
+        width: 90%;
+        margin-right: 0;
+    }
+    .user-friendly-management,
+    .custom-tailored-solutions,
+    .scalable-and-flexible,
+    .robust-security-feature,
+    .integration,
+    .ongoing-support-and-training   {
+        height: auto;
+        padding: 20px 0;
+    }
+    .user-friendly-management p,
+    .custom-tailored-solutions p,
+    .scalable-and-flexible p,
+    .robust-security-feature p,
+    .integration p,
+    .ongoing-support-and-training p {
+        width: 90%;
+    }
+
+    .web-cms-logo-container-1,
+    .web-cms-logo-container-2,
+    .web-cms-logo-container-3 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .web-cms-logo-container-1 h2,
+    .web-cms-logo-container-2 h2,
+    .web-cms-logo-container-3 h2 {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,509 @@
+.cr-jp{
+    height: auto;
+}
+.cr-jp-img-1 img{
+    width: 1700px;
+    height: auto;
+}
+.cr-jp-title-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.cr-jp-title-1 p{
+    width: 1250px;
+    font-size: 20px;
+    font-weight: 450;
+}
+.cr-jp-title-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.cr-jp-title-2 h2{
+    font-size: 32px;
+    color: #004aad;
+    font-weight: 550;
+}
+.cr-jp-title-2 p{
+    width: 1200px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cr-jp-main-card-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+.cr-jp-subcard-1{
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+.cr-jp-subcard-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+.career-advancement,
+.professional-development,
+.inclusive-culture,
+.innovation-driven-environment,
+.collaborative-teamwork,
+.impactful-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    gap: 25px;
+    border-radius: 9px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+.career-advancement h3,
+.professional-development h3,
+.inclusive-culture h3,
+.innovation-driven-environment h3,
+.collaborative-teamwork h3,
+.impactful-work h3{
+    text-align: center;
+    font-size: 22px;
+}
+.career-advancement p,
+.professional-development p,
+.inclusive-culture p,
+.innovation-driven-environment p,
+.collaborative-teamwork p,
+.impactful-work p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+.cr-jp-title-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.cr-jp-title-4 h2{
+   font-size: 32px;
+   color: #004aad;
+}
+.cr-jp-title-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+
+}
+.cr-jp-title-5 img{
+    width: 550px;
+    height: auto;
+}
+.cr-jp-title-5 p{
+    width: 600px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.cr-jp-title-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.cr-jp-title-6 h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.b-c {
+    color: #03045E;
+}
+
+.l-c {
+    color: #004aad;
+}
+
+.cr-jp-jobcard-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.cr-jp-jcard-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 200px;
+    background-color: #004aad;
+    border-radius: 9px;
+    color: white;
+    gap: 40px;
+    
+
+}
+.cr-jp-jcard-title-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    margin-left: 20px;
+}
+.cr-jp-jcard-1 p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.cr-jp-jcard-2 p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.cr-jp-jcard-title-1 h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+.cr-jp-jcard-title-2 h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.cr-jp-jcard-1 button{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 280px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+.cr-jb-jcard-2 button{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    margin-right: 20px;
+    width: 280px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+.cr-jb-jcard-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 200px;
+    background-color: #004aad;
+    border-radius: 9px;
+    color: white;
+    gap: 40px;
+}
+.cr-jp-jcard-title-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+.cr-jp-title-7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.cr-jp-title-7 h2{
+   font-size: 32px;
+   color: #004aad;
+}
+.cr-jp-title-7 p{
+    width: 1200px;
+    font-size: 18px;
+}
+.cr-jp-main-card-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+.cr-jp-title-4 h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.cr-jp-subcard-3{
+    display: flex;  
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+.cr-jp-subcard-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+.cr-jp-subcard-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 100px;
+}
+.diverse-projects,
+.collaborative-opportunities,
+.technologies,
+.work-environment,
+.ongoing-learning,
+.partnerships,
+.competitive-compensation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 420px;
+    gap: 25px;
+    border-radius: 45px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+.diverse-projects img,
+.collaborative-opportunities img,
+.technologies img,
+.work-environment img,
+.ongoing-learning img,
+.partnerships img,
+.competitive-compensation img {
+    width: 90px;
+    height: auto;
+}
+.diverse-projects h3,
+.collaborative-opportunities h3,
+.technologies h3,
+.work-environment h3,
+.ongoing-learning h3,
+.partnerships h3,
+.competitive-compensation h3 {
+    text-align: center;
+    font-size: 20px;
+}
+.diverse-projects p,
+.collaborative-opportunities p,
+.technologies p ,
+.work-environment p,
+.ongoing-learning p,
+.partnerships p,
+.competitive-compensation p{
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+/* Base styles remain the same */
+
+/* Media query for screens up to 1280px */
+@media screen and (max-width: 1280px) {
+    .cr-jp-img-1 img {
+      width: 100%;
+    }
+  
+    .cr-jp-title-1 p,
+    .cr-jp-title-2 p,
+    .cr-jp-title-7 p {
+      width: 90%;
+    }
+  
+    .cr-jp-subcard-1,
+    .cr-jp-subcard-2,
+    .cr-jp-subcard-3,
+    .cr-jp-subcard-4 {
+      flex-wrap: wrap;
+    }
+  
+    .cr-jp-jcard-1,
+    .cr-jb-jcard-2 {
+      width: 90%;
+    }
+  }
+  
+  /* Media query for screens up to 1024px */
+  @media screen and (max-width: 1024px) {
+    .cr-jp-title-5 {
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .cr-jp-title-5 img {
+      width: 80%;
+    }
+  
+    .cr-jp-title-5 p {
+      width: 80%;
+    }
+  
+    .career-advancement,
+    .professional-development,
+    .inclusive-culture,
+    .innovation-driven-environment,
+    .collaborative-teamwork,
+    .impactful-work,
+    .diverse-projects,
+    .collaborative-opportunities,
+    .technologies,
+    .work-environment,
+    .ongoing-learning,
+    .partnerships,
+    .competitive-compensation {
+      width: 80%;
+    }
+  }
+  
+  /* Media query for screens up to 800px */
+  @media screen and (max-width: 800px) {
+    .cr-jp-title-1 p,
+    .cr-jp-title-2 p,
+    .cr-jp-title-7 p {
+      width: 95%;
+      font-size: 16px;
+    }
+  
+    .cr-jp-title-2 h2,
+    .cr-jp-title-4 h2,
+    .cr-jp-title-6 h2,
+    .cr-jp-title-7 h2 {
+      font-size: 28px;
+    }
+  
+    .cr-jp-jcard-1,
+    .cr-jb-jcard-2 {
+      flex-direction: column;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .cr-jp-jcard-title-1,
+    .cr-jp-jcard-title-2 {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .cr-jp-jcard-1 button,
+    .cr-jb-jcard-2 button {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+  
+  /* Media query for screens up to 500px */
+  @media screen and (max-width: 500px) {
+    .cr-jp-title-1 p,
+    .cr-jp-title-2 p,
+    .cr-jp-title-7 p {
+      font-size: 14px;
+    }
+  
+    .cr-jp-title-2 h2,
+    .cr-jp-title-4 h2,
+    .cr-jp-title-6 h2,
+    .cr-jp-title-7 h2 {
+      font-size: 24px;
+    }
+  
+    .career-advancement,
+    .professional-development,
+    .inclusive-culture,
+    .innovation-driven-environment,
+    .collaborative-teamwork,
+    .impactful-work,
+    .diverse-projects,
+    .collaborative-opportunities,
+    .technologies,
+    .work-environment,
+    .ongoing-learning,
+    .partnerships,
+    .competitive-compensation {
+      width: 95%;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .cr-jp-jcard-1,
+    .cr-jb-jcard-2 {
+      width: 95%;
+    }
+  
+    .cr-jp-jcard-1 p,
+    .cr-jb-jcard-2 p {
+      font-size: 14px;
+    }
+  
+    .cr-jp-jcard-1 button,
+    .cr-jb-jcard-2 button {
+      font-size: 16px;
+    }
+  }

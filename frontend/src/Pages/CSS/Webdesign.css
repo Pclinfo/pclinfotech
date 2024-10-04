@@ -1,0 +1,709 @@
+.web-design {
+    height: auto;
+}
+
+.web-design-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+    height: auto;
+}
+
+.web-design-left {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.web-design-left h2 {
+    font-size: 38px;
+    font-weight: 450;
+    color: #004aad;
+}
+
+.web-design-left p {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 900px;
+    height: auto;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.web-design-left button {
+    margin-top: 15px;
+    margin-right: 40px;
+    width: 250px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    background: white;
+    cursor: pointer;
+}
+
+.web-design-left button :hover {
+    background-color: #004aad;
+    color: white;
+}
+
+.web-design-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+
+}
+
+.web-design-right img {
+    width: 550px;
+    height: auto;
+}
+
+.web-design-2 {
+    height: 850px;
+}
+
+.web-des-2-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-des-2-left img {
+    width: 550px;
+    height: auto;
+}
+
+.web-des-2-left p {
+    width: 950px;
+    font-size: 22px;
+}
+
+.web-des-2-right {
+    display: flex;
+    float: right;
+}
+
+.web-des-2-right img {
+    width: 450px;
+    margin: -35%;
+    margin-bottom: 20px;
+}
+
+.web-design-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+
+}
+
+.web-des-title-1 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-des-title-1 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.web-des-card-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 90px;
+    padding: 20px;
+}
+
+.web-des-card-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.web-des-card-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 40px;
+}
+
+.fast-load-times {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.brand-centric-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.intuitive-user-experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.interactive-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.accessibility-and-inclusivity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.consistent-branding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.content-strategy-integration {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.future-proof-designs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    height: 380px;
+    gap: 25px;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
+}
+
+.fast-load-times img,
+.brand-centric-design img,
+.intuitive-user-experience img,
+.interactive-elements img,
+.accessibility-and-inclusivity img,
+.consistent-branding img,
+.content-strategy-integration img,
+.future-proof-designs img {
+    width: 90px;
+    height: auto;
+}
+
+.fast-load-times h3,
+.brand-centric-design h3,
+.intuitive-user-experience h3,
+.interactive-elements h3,
+.accessibility-and-inclusivity h3,
+.consistent-branding h3,
+.content-strategy-integration h3,
+.future-proof-designs h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.fast-load-times p,
+.brand-centric-design p,
+.intuitive-user-experience p,
+.interactive-elements p,
+.accessibility-and-inclusivity p,
+.consistent-branding p,
+.content-strategy-integration p,
+.future-proof-designs p {
+    width: 300px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.web-des-button button {
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    outline: none;
+    box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
+    border-color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 400;
+    background: #004aad;
+    color: white;
+    cursor: pointer;
+}
+
+.web-design-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: none;
+    margin-top: 60px;
+}
+
+.web-des-title-2 h2 {
+    text-align: center;
+    font-weight: 700;
+    color: #004aad;
+    font-size: 26px;
+}
+
+.web-des-title-2 p {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    width: 1500px;
+    margin-bottom: 40px;
+}
+
+.web-design-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    height: 100wh;
+    margin-top: 100px;
+}
+
+.web-des-logo-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+}
+
+.web-des-logo-container-1 img {
+    width: 160px;
+    height: auto;
+}
+
+.web-des-logo-container-1 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-des-logo-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.web-des-logo-container-2 img {
+    width: 160px;
+    height: auto;
+}
+
+.web-des-logo-container-2 h2 {
+    font-size: 26px;
+    color: black;
+}
+
+.web-des-logo-container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 200px;
+    margin-bottom: 80px;
+}
+
+.web-des-logo-container-3 img {
+    width: 160px;
+    height: auto;
+}
+
+.web-des-logo-container-3 h2 {
+    font-size: 26px;
+    color: black;
+}
+@media (max-width: 1280px) {
+   
+}
+
+/* Media Query for 1024px and below */
+@media (max-width: 1024px) {
+    .web-design-left h2 {
+        font-size: 28px;
+        font-weight: 450;
+        color: #004aad;
+    }
+
+    .web-design-left p {
+        width: 350px;
+    }
+
+    .web-design-left button {
+        width: 60%;
+        height: auto;
+    }
+
+    .web-design-right img {
+        width: 350px;
+    }
+
+    .web-design-2-left img {
+        width: 400px;
+        height: auto
+    }
+
+    .web-design-2-right img {
+        width: 300px;
+        margin: -15%;
+        height: auto;
+    }
+
+    .web-design-2-left p {
+        width: 650px;
+        font-size: 18px;
+    }
+
+    .web-des-title-1 p,
+    .web-des-title-2 p {
+        width: 90%;
+    }
+
+    .web-design-right,
+    .web-design-logo-container-1,
+    .web-design-logo-container-2,
+    .web-design-logo-container-3 {
+        gap: 120px;
+    }
+
+    .web-design-card-1,
+    .web-design-card-2,
+    .web-design-card-2 {
+        flex-direction: column;
+    }
+}
+
+/* Media Query for 800px and below */
+@media (max-width: 800px) {
+    .web-design-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .web-design-left h2 {
+        font-size: 26px;
+        font-weight: 450;
+        color: #004aad;
+    }
+
+    .web-design-left p {
+        width: 300px;
+        font-size: 18px;
+    }
+
+    .web-design-left button {
+        width: 40%;
+        height: auto;
+    }
+
+    .web-design-right img {
+        width: 400px;
+    }
+
+    .web-design-2-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .web-design-2-left img {
+        width: 350px;
+        height: auto
+    }
+
+    .web-design-2-right img {
+        width: 300px;
+        margin-top: 15px;
+        height: auto;
+    }
+
+    .web-design-2-left p {
+        width: 350px;
+        font-size: 18px;
+    }
+
+    .web-des-card-1,
+    .web-des-card-2,
+    .web-des-card-3 {
+        gap: 50px;
+    }
+
+    .fast-load-times ,
+    .brand-centric-design ,
+    .intuitive-user-experience ,
+    .interactive-elements,
+    .accessibility-and-inclusivity ,
+    .consistent-branding ,
+    .content-strategy-integration ,
+    .future-proof-designs  {
+        width: 300px;
+        height: auto;
+    }
+}
+
+/* Media Query for 500px and below */
+@media (max-width: 500px) {
+    .web-design-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .web-design-left h2 {
+        font-size: 26px;
+        font-weight: 450;
+        color: #004aad;
+    }
+
+    .web-design-left p {
+        width: 350px;
+        font-size: 18px;
+    }
+
+    .web-design-left button {
+        width: 60%;
+        height: auto;
+    }
+
+    .web-design-right img {
+        width: 350px;
+    }
+
+    .web-design-2-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .web-design-2-left img {
+        width: 300px;
+        height: auto
+    }
+
+    .web-design-2-right img {
+        width: 300px;
+        height: auto;
+    }
+
+    .web-design-2-left p {
+        width: 250px;
+        font-size: 18px;
+    }
+
+    .web-design-title-1 h2 {
+        text-align: center;
+        font-weight: 700;
+        color: #004aad;
+        font-size: 18px;
+    }
+
+    .web-design-title-1 p {
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 400;
+        color: black;
+        font-size: 16px;
+        width: 400px;
+        margin-bottom: 40px;
+    }
+
+    .fast-load-times,
+    .brand-centric-design,
+    .intuitive-user-experience,
+    .interactive-elements,
+    .accessibility-and-inclusivity,
+    .consistent-branding,
+    .content-strategy-integration,
+    .future-proof-designs   {
+        width: 90%;
+        height: 400px;
+        gap: 15px;
+    }
+
+    .fast-load-times h3,
+    .brand-centric-design h3,
+    .intuitive-user-experience h3,
+    .interactive-elements h3,
+    .accessibility-and-inclusivity h3,
+    .consistent-branding h3,
+    .content-strategy-integration h3,
+    .future-proof-designs h3 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .fast-load-times p,
+    .brand-centric-design p,
+    .intuitive-user-experience p,
+    .interactive-elements p,
+    .accessibility-and-inclusivity p,
+    .consistent-branding p,
+    .content-strategy-integration p,
+    .future-proof-designs p {
+        width: 200px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+
+    .web-des-logo-container-1,
+    .web-des-logo-container-2,
+    .web-des-logo-container-3 {
+        gap: 50px;
+    }
+
+    .web-des-button button {
+        width: 150px;
+        height: 40px;
+    }
+    .web-design-4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        height: none;
+        margin-top: 60px;   
+    }
+    .web-design-title-2 h2 {
+        text-align: center;
+        width: 300px;
+        font-weight: 700;
+        color: #004aad;
+        font-size: 20px;
+    }
+    .web-design-title-2 p {
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 400;
+        color: black;
+        font-size: 18px;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+    .web-des-logo-container-1 img{
+        width: 40px;
+        height: auto;
+    }
+    .web-des-logo-container-2 img{
+        width: 40px;
+        height: auto;
+    }
+    .web-des-logo-container-3 img{
+        width: 40px;
+        height: auto;
+    }
+   
+    
+}

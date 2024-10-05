@@ -1,0 +1,158 @@
+/* Privacypolicy.css */
+
+.p-p {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.p-p-head-title-1 h2 {
+    font-size: 2.5em;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.p-p-head-title-1 p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.p-psub-title-1 h4,
+.p-psub-title-2 h4,
+.p-psub-title-3 h4,
+.p-psub-title-4 h4,
+.p-psub-title-5 h4,
+.p-psub-title-6 h4,
+.p-psub-title-7 h4 {
+    font-size: 1.5em;
+    color: #555;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.p-p p {
+    margin-bottom: 15px;
+}
+
+.p-psub-title-1 p,
+.p-psub-title-7 p {
+    margin-bottom: 5px;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 1380px) {
+    .p-p {
+        max-width: 1100px;
+    }
+
+    .p-p-head-title-1 h2 {
+        font-size: 2.3em;
+    }
+}
+
+@media (max-width: 1280px) {
+    .p-p {
+        max-width: 1000px;
+    }
+
+    .p-p-head-title-1 h2 {
+        font-size: 2.1em;
+    }
+
+    .p-psub-title-1 h4,
+    .p-psub-title-2 h4,
+    .p-psub-title-3 h4,
+    .p-psub-title-4 h4,
+    .p-psub-title-5 h4,
+    .p-psub-title-6 h4,
+    .p-psub-title-7 h4 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 1024px) {
+    .p-p {
+        max-width: 900px;
+        padding: 15px;
+    }
+
+    .p-p-head-title-1 h2 {
+        font-size: 2em;
+    }
+
+    .p-p-head-title-1 p {
+        font-size: 1em;
+    }
+
+    .p-psub-title-1 h4,
+    .p-psub-title-2 h4,
+    .p-psub-title-3 h4,
+    .p-psub-title-4 h4,
+    .p-psub-title-5 h4,
+    .p-psub-title-6 h4,
+    .p-psub-title-7 h4 {
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 800px) {
+    .p-p {
+        max-width: 700px;
+        padding: 10px;
+    }
+
+    .p-p-head-title-1 h2 {
+        font-size: 1.8em;
+    }
+
+    .p-p-head-title-1 p {
+        font-size: 0.95em;
+    }
+
+    .p-psub-title-1 h4,
+    .p-psub-title-2 h4,
+    .p-psub-title-3 h4,
+    .p-psub-title-4 h4,
+    .p-psub-title-5 h4,
+    .p-psub-title-6 h4,
+    .p-psub-title-7 h4 {
+        font-size: 1.2em;
+    }
+
+    .p-p p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 500px) {
+    .p-p {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .p-p-head-title-1 h2 {
+        font-size: 1.6em;
+    }
+
+    .p-p-head-title-1 p {
+        font-size: 0.9em;
+    }
+
+    .p-psub-title-1 h4,
+    .p-psub-title-2 h4,
+    .p-psub-title-3 h4,
+    .p-psub-title-4 h4,
+    .p-psub-title-5 h4,
+    .p-psub-title-6 h4,
+    .p-psub-title-7 h4 {
+        font-size: 1.1em;
+    }
+
+    .p-p p {
+        font-size: 0.85em;
+    }
+}

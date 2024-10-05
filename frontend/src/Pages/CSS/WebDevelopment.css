@@ -150,7 +150,7 @@
     align-items: center;
     align-content: center;
     width: 340px;
-    height: 380px;
+    height: 400px;
     gap: 25px;
     border-radius: 6px;
     box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
@@ -164,7 +164,7 @@
     justify-content: center;
     align-items: center;
     width: 340px;
-    height: 380px;
+    height: 400px;
     gap: 25px;
     border-radius: 6px;
     box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
@@ -178,7 +178,7 @@
     justify-content: center;
     align-items: center;
     width: 340px;
-    height: 380px;
+    height: 400px;
     gap: 25px;
     border-radius: 6px;
     box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
@@ -192,7 +192,7 @@
     justify-content: center;
     align-items: center;
     width: 340px;
-    height: 380px;
+    height: 400px;
     gap: 25px;
     border-radius: 6px;
     box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
@@ -206,7 +206,7 @@
     justify-content: center;
     align-items: center;
     width: 340px;
-    height: 380px;
+    height: 400px;
     gap: 25px;
     border-radius: 6px;
     box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
@@ -220,7 +220,7 @@
     justify-content: center;
     align-items: center;
     width: 340px;
-    height: 380px;
+    height: 400px;
     gap: 25px;
     border-radius: 6px;
     box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
@@ -389,6 +389,28 @@
 /* ... (rest of the original CSS) ... */
 
 /* Media Queries */
+@media screen and (max-width: 1480px) {
+    .web-development-left p {
+        width: 600px;
+    }
+
+    .web-dev-title-1 p,
+    .web-dev-title-2 p {
+        width: 90%;
+    }
+
+    .web-dev-card-1,
+    .web-dev-card-2 {
+        flex-wrap: wrap;
+    }
+
+    .web-dev-logo-container-1,
+    .web-dev-logo-container-2,
+    .web-dev-logo-container-3 {
+        gap: 100px;
+    }
+}
+
 @media screen and (max-width: 1280px) {
     .web-development-left p {
         width: 600px;
@@ -415,6 +437,12 @@
     .web-development-1 {
         flex-direction: column;
     }
+    .web-development-1 {
+        padding: 30px;
+    }
+    .web-development-left button{
+        width: 250px;
+    }
 
     .web-development-left p {
         width: 90%;
@@ -438,6 +466,7 @@
         margin: 0;
     }
 
+    
     .web-dev-logo-container-1,
     .web-dev-logo-container-2,
     .web-dev-logo-container-3 {
@@ -447,6 +476,12 @@
 }
 
 @media screen and (max-width: 800px) {
+    .web-development-1 {
+        padding: 30px;
+    }
+    .web-development-left button{
+        width: 250px;
+    }
     .web-development-left h2 {
         font-size: 32px;
     }
@@ -454,6 +489,15 @@
     .web-development-left p,
     .web-dev-2-left p {
         font-size: 18px;
+    }
+    .tailored-to-your-business-needs,
+    .cutting-edge-technology,
+    .responsive-and-mobile-optimized,
+    .ongoing-support-and-maintenance,
+    .data-security-and-compliance,
+    .scalable-solution-for-growth {
+        height: auto;
+        padding: 20px 0;
     }
 
     .tailored-to-your-business-needs,
@@ -473,6 +517,12 @@
 }
 
 @media screen and (max-width: 500px) {
+    .web-development-1 {
+        padding: 30px;
+    }
+    .web-development-left button{
+        width: 200px;
+    }
     .web-development-left h2 {
         font-size: 28px;
     }

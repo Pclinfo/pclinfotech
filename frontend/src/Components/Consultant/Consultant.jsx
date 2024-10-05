@@ -29,7 +29,7 @@ const Consultant = () => {
           <p>Optimize your IT infrastructure and improve performance with our enterprise technology consulting. We help you implement the right technologies to drive efficiency and growth.</p>
         </div>
       </div>
-       <div className="consultant-strategy-container">
+      <div className="consultant-strategy-container">
         <div className="strategy-analytics">
           <img src={strategy_analytics} alt="" />
           <h3>Strategy Analytics</h3>
@@ -45,7 +45,7 @@ const Consultant = () => {
           <h3> Management</h3>
           <p>Our experts work closely with you to understand your business challenges and develop solutions that deliver measurable results.</p>
         </div>
-       </div>
+      </div>
 
     </div>
   )

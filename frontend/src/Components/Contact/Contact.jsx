@@ -34,7 +34,8 @@ const Contact = () => {
                     <img src={customized_solutions} alt="" />
                     <p>Customized Solutions</p>
                 </div>
-                <div className="contact-left-down-container"></div>
+            </div>
+            <div className="contact-left-down-container-1">
                 <div className="technical-support">
                     <img src={technical_support} alt="" />
                     <p>Technical Support</p>

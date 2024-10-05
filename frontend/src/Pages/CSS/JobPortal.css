@@ -325,7 +325,7 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 340px;
+    width: 360px;
     height: 420px;
     gap: 25px;
     border-radius: 45px;
@@ -389,6 +389,7 @@
     .cr-jb-jcard-2 {
       width: 90%;
     }
+    
   }
   
   /* Media query for screens up to 1024px */
@@ -438,7 +439,23 @@
     .cr-jp-title-7 h2 {
       font-size: 28px;
     }
-  
+    .career-advancement,
+    .professional-development,
+    .inclusive-culture,
+    .innovation-driven-environment,
+    .collaborative-teamwork,
+    .impactful-work,
+    .diverse-projects,
+    .collaborative-opportunities,
+    .technologies,
+    .work-environment,
+    .ongoing-learning,
+    .partnerships,
+    .competitive-compensation {
+      width: 95%;
+      height: auto;
+      padding: 20px;
+    }
     .cr-jp-jcard-1,
     .cr-jb-jcard-2 {
       flex-direction: column;

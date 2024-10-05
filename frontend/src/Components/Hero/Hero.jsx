@@ -5,12 +5,17 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import web_banner from '../Assets/web_banner.png'
 import hero_down_img from '../Assets/hero_down_img.jpg';
-import { FaWhatsapp, FaPhoneAlt, FaComments } from 'react-icons/fa'; // Added chat icon
+import { FaWhatsapp, FaPhoneAlt } from 'react-icons/fa'; // Added chat icon
 import Modal from 'react-modal';
+import { Link } from 'react-router-dom';
 
 
 
 const Hero = () => {
+
+
+
+  
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [formData, setFormData] = useState({
     firstName: '',
@@ -80,7 +85,7 @@ const Hero = () => {
               build a strong online presence, deliver exceptional user experiences, and achieve your
               business objectives.</p>
             <div className="slide-btn">
-              <button>Read More</button>
+              <button><Link style={{ textDecoration: 'none', color: 'black' }}  to="/web-development">Read More</Link></button>
               <button onClick={openModal}>Order Now</button>
             </div>
           </div>
@@ -93,7 +98,7 @@ const Hero = () => {
               essence. We prioritize aesthetics, functionality, and user experience to ensure your website
               leaves a lasting impression.</p>
             <div className="slide-btn">
-              <button>Read More</button>
+              <button><Link style={{ textDecoration: 'none', color: 'black' }}  to="/web-design">Read More</Link></button>
               <button onClick={openModal}>Order Now</button>
             </div>
           </div>
@@ -106,7 +111,7 @@ const Hero = () => {
               server solutions. We offer a range of services to meet your specific needs, from domain
               registration to dedicated servers.</p>
             <div className="slide-btn">
-              <button>Read More</button>
+              <button><Link style={{ textDecoration: 'none', color: 'black' }}  to="/cloud-server">Read More</Link></button>
               <button onClick={openModal}>Order Now</button>
             </div>
           </div>
@@ -155,14 +160,6 @@ const Hero = () => {
         </a>
         <a href="+91 72000 74253" className="icon phone">
           <FaPhoneAlt />
-        </a>
-      </div>
-
-      {/* Chatbot Button */}
-      <div className="chatbot-button">
-        <a href="#chat" className="chat-link">
-          <FaComments />
-          <span>Speak to us!</span>
         </a>
       </div>
     </div>

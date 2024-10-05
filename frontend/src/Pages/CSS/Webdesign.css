@@ -414,12 +414,61 @@
     font-size: 26px;
     color: black;
 }
-@media (max-width: 1280px) {
-   
-}
+@media screen and (max-width: 1480px) {
+    .web-design-1 {
+        padding: 30px;
+    }
+    .web-design-left button{
+        width: 250px;
+    }
 
-/* Media Query for 1024px and below */
-@media (max-width: 1024px) {
+    .web-design-left p {
+        width: 600px;
+    }
+
+    .web-des-title-1 p,
+    .web-des-title-2 p {
+        width: 90%;
+    }
+
+    .web-des-card-1,
+    .web-des-card-2 {
+        flex-wrap: wrap;
+    }
+
+    .web-des-logo-container-1,
+    .web-des-logo-container-2,
+    .web-des-logo-container-3 {
+        gap: 100px;
+    }
+}
+@media (max-width: 1280px) {
+    .web-design-1 {
+        padding: 30px;
+    }
+    .web-design-left button{
+        width: 250px;
+    }
+    .web-design-left p {
+        width: 600px;
+    }
+
+    .web-des-title-1 p,
+    .web-des-title-2 p {
+        width: 90%;
+    }
+
+    .web-des-card-1,
+    .web-des-card-2 {
+        flex-wrap: wrap;
+    }
+
+    .web-des-logo-container-1,
+    .web-des-logo-container-2,
+    .web-des-logo-container-3 {
+        gap: 100px;
+    }
+
     .web-design-left h2 {
         font-size: 28px;
         font-weight: 450;
@@ -470,6 +519,68 @@
     .web-design-card-1,
     .web-design-card-2,
     .web-design-card-2 {
+        flex-direction: column;
+    }
+}
+
+/* Media Query for 1024px and below */
+@media (max-width: 1024px) {
+    .web-design-1 {
+        padding: 30px;
+    }
+    .web-design-left button{
+        width: 250px;
+    }
+    .web-design-left h2 {
+        font-size: 28px;
+        font-weight: 450;
+        color: #004aad;
+    }
+
+    .web-design-left p {
+        width: 350px;
+    }
+
+    .web-design-left button {
+        width: 60%;
+        height: auto;
+    }
+
+    .web-design-right img {
+        width: 350px;
+    }
+
+    .web-design-2-left img {
+        width: 400px;
+        height: auto
+    }
+
+    .web-design-2-right img {
+        width: 300px;
+        margin: -15%;
+        height: auto;
+    }
+
+    .web-design-2-left p {
+        width: 650px;
+        font-size: 18px;
+    }
+
+    .web-des-title-1 p,
+    .web-des-title-2 p {
+        width: 90%;
+    }
+
+    .web-design-right,
+    .web-design-logo-container-1,
+    .web-design-logo-container-2,
+    .web-design-logo-container-3 {
+        gap: 120px;
+    }
+
+    .web-design-card-1,
+    .web-design-card-2,
+    .web-design-card-3 {
         flex-direction: column;
     }
 }

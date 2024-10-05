@@ -58,6 +58,70 @@
     width: 350px;
 }
 /* For screens with a width of 1024px or less */
+@media (max-width: 1400px) {
+    .consultant p {
+        width: 90%; /* Adjust width for smaller screens */
+        font-size: 17px;
+    }
+
+    .consultant-business-container, .consultant-strategy-container {
+        flex-direction: column; /* Stack the sections vertically */
+        align-items: center;
+        gap: 40px; /* Reduce gap between items */
+    }
+
+    .business-opertions, .customer-marketing, .enterprise-technology-performance, 
+    .strategy-analytics, .product-design, .management {
+        width: 50%; /* Full width on very small screens */
+        height: auto;
+        padding: 5px;
+        box-shadow: none; /* Optional: Reduce shadows on small screens */
+    }
+
+}
+@media (max-width: 1380px) {
+    .consultant p {
+        width: 90%; /* Adjust width for smaller screens */
+        font-size: 17px;
+    }
+
+    .consultant-business-container, .consultant-strategy-container {
+        flex-direction: column; /* Stack the sections vertically */
+        align-items: center;
+        gap: 40px; /* Reduce gap between items */
+    }
+
+    .business-opertions, .customer-marketing, .enterprise-technology-performance, 
+    .strategy-analytics, .product-design, .management {
+        width: 50%; /* Full width on very small screens */
+        height: auto;
+        padding: 5px;
+        box-shadow: none; /* Optional: Reduce shadows on small screens */
+    }
+
+}
+@media (max-width: 1280px) {
+    .consultant p {
+        width: 90%; /* Adjust width for smaller screens */
+        font-size: 17px;
+    }
+
+    .consultant-business-container, .consultant-strategy-container {
+        flex-direction: column; /* Stack the sections vertically */
+        align-items: center;
+        gap: 40px; /* Reduce gap between items */
+    }
+
+    .business-opertions, .customer-marketing, .enterprise-technology-performance, 
+    .strategy-analytics, .product-design, .management {
+        width: 50%; /* Full width on very small screens */
+        height: auto;
+        padding: 5px;
+        box-shadow: none; /* Optional: Reduce shadows on small screens */
+    }
+
+}
+
 @media (max-width: 1024px) {
     .consultant p {
         width: 90%; /* Adjust width for smaller screens */
@@ -72,9 +136,12 @@
 
     .business-opertions, .customer-marketing, .enterprise-technology-performance, 
     .strategy-analytics, .product-design, .management {
-        width: 90%; /* Make the cards responsive */
-        height: auto; /* Adjust height to content */
+        width: 50%; /* Full width on very small screens */
+        height: auto;
+        padding: 5px;
+        box-shadow: none; /* Optional: Reduce shadows on small screens */
     }
+
 }
 
 /* For screens with a width of 800px or less */
@@ -90,9 +157,12 @@
 
     .business-opertions, .customer-marketing, .enterprise-technology-performance, 
     .strategy-analytics, .product-design, .management {
-        width: 95%; /* Full width for smaller devices */
+        width: 60%; /* Full width on very small screens */
         height: auto;
+        padding: 5px;
+        box-shadow: none; /* Optional: Reduce shadows on small screens */
     }
+
 
     .business-opertions h3, .customer-marketing h3, .enterprise-technology-performance h3, 
     .strategy-analytics h3, .product-design h3, .management h3 {

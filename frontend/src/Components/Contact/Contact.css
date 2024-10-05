@@ -1,29 +1,33 @@
-.contact{
+.contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    height: 100wh;
+    
     margin-top: 60px;
+    padding: 100px;
 }
-.contact h2{
-    grid-column:  3;
+
+.contact h2 {
+    grid-column: 3;
     text-align: center;
     font-weight: 800;
     color: #004aad;
     font-size: 26px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
-.contact-left-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
 
+.contact-left-container, .contact-left-down-container-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 100px;
 }
-.digital-innovation, .passionate-approach,.customized-solutions, .transparent-business, .technical-support, .reliable-clients-service , .delivery-on-time,.cost-effective-services {
+
+.digital-innovation, .passionate-approach, .customized-solutions, .transparent-business, 
+.technical-support, .reliable-clients-service, .delivery-on-time, .cost-effective-services {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,11 +38,15 @@
     cursor: pointer;
     transition: transform 0.1s ease, box-shadow 0.1s ease, border-bottom 0.1s ease;
 }
-.digital-innovation, .passionate-approach,.customized-solutions, .transparent-business, .technical-support, .reliable-clients-service , .delivery-on-time,.cost-effective-services {
+
+.digital-innovation:hover, .passionate-approach:hover, .customized-solutions:hover, 
+.transparent-business:hover, .technical-support:hover, .reliable-clients-service:hover, 
+.delivery-on-time:hover, .cost-effective-services:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 74, 173, 0.3);
     border-bottom: 4px solid #004aad;
 }
+
 .contact-right-container {
     width: 400px;
     margin: 0 auto;
@@ -133,76 +141,143 @@ textarea {
     background-color: #0056b3;
 }
 
-@media screen and (max-width: 1280px) {
-    .contact-left-container {
-        grid-template-columns: repeat(2, 1fr);
+/* Media Queries */
+@media (max-width: 1400px) {
+    .contact {
+        padding: 80px;
+    }
+    
+    .contact-left-container, .contact-left-down-container-1 {
+        gap: 40px;
+    }
+    
+    .digital-innovation, .passionate-approach, .customized-solutions, .transparent-business, 
+    .technical-support, .reliable-clients-service, .delivery-on-time, .cost-effective-services {
+        width: 180px;
+        height: 110px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1350px) {
     .contact {
-        margin-top: 40px;
+        padding: 60px;
     }
     
+    .contact-left-container, .contact-left-down-container-1 {
+        gap: 30px;
+    }
+    
+    .digital-innovation, .passionate-approach, .customized-solutions, .transparent-business, 
+    .technical-support, .reliable-clients-service, .delivery-on-time, .cost-effective-services {
+        width: 160px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 1280px) {
     .contact h2 {
         font-size: 24px;
     }
     
-    .contact-left-container {
-        padding: 20px;
-    }
-    
-    .digital-innovation, .passionate-approach, .customized-solutions, 
-    .transparent-business, .technical-support, .reliable-clients-service, 
-    .delivery-on-time, .cost-effective-services {
-        width: 180px;
-        height: 100px;
+    .contact-left-container, .contact-left-down-container-1 {
+        flex-wrap: wrap;
     }
     
     .contact-right-container {
         width: 350px;
-        margin-top: -120px;
     }
 }
 
-@media screen and (max-width: 800px) {
-    .contact-left-container {
-        grid-template-columns: 1fr;
+@media (max-width: 1024px) {
+    .contact {
+        padding: 40px;
+    }
+    
+    .contact-left-container, .contact-left-down-container-1 {
+        margin-bottom: 60px;
     }
     
     .contact-right-container {
-        width: 90%;
-        max-width: 400px;
+        margin-top: -100px;
+    }
+}
+
+@media (max-width: 900px) {
+    .contact h2 {
+        font-size: 22px;
+    }
+    
+    .digital-innovation, .passionate-approach, .customized-solutions, .transparent-business, 
+    .technical-support, .reliable-clients-service, .delivery-on-time, .cost-effective-services {
+        width: 140px;
+        height: 90px;
+    }
+    
+    .contact-right-container {
+        width: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+    .contact {
+        padding: 30px;
+    }
+    
+    .contact-left-container, .contact-left-down-container-1 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .digital-innovation, .passionate-approach, .customized-solutions, .transparent-business, 
+    .technical-support, .reliable-clients-service, .delivery-on-time, .cost-effective-services {
+        width: 200px;
+        height: 80px;
+    }
+    
+    .contact-right-container {
         margin-top: 20px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact {
+        padding: 20px;
+        margin-top: 30px;
+    }
+    
+    .contact h2 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .digital-innovation, .passionate-approach, .customized-solutions, .transparent-business, 
+    .technical-support, .reliable-clients-service, .delivery-on-time, .cost-effective-services {
+        width: 180px;
+        height: 70px;
+    }
+    
+    .contact-right-container {
+        width: 95%;
+        padding: 15px;
     }
     
     h3 {
         font-size: 20px;
     }
-}
-
-@media screen and (max-width: 500px) {
-    .contact h2 {
-        font-size: 20px;
+    
+    .form-group label {
+        font-size: 14px;
     }
     
-    .digital-innovation, .passionate-approach, .customized-solutions, 
-    .transparent-business, .technical-support, .reliable-clients-service, 
-    .delivery-on-time, .cost-effective-services {
-        width: 150px;
-        height: 90px;
-    }
-    
-    .contact-right-container {
-        padding: 15px;
-    }
-    
-    input[type="text"], input[type="email"], input[type="tel"], textarea {
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
         font-size: 14px;
     }
     
     .send-btn {
-        padding: 10px;
         font-size: 14px;
     }
 }

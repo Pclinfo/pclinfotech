@@ -1,39 +1,44 @@
-.content{
+/* Base styles remain the same */
+.content {
     display: flex;
     width: 100%;
     height: 100%;
     position: relative;
 }
-.internship-banner{
+
+.internship-banner {
     flex: 1; 
     display: flex;
     flex-direction: column;
     justify-content: top; 
     align-items: center;
 }
-.internship-banner img{
+
+.internship-banner img {
     width: 550px;
     height: auto;
 }
-.internship-ctn{
+
+.internship-ctn {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 550px;
 }
-.internship-ctn h2{
+
+.internship-ctn h2 {
     width: 550px;
     font-size: 30px;
 }
-.internship-ctn p{
+
+.internship-ctn p {
     font-size: 18px;
     font-weight: 400;
 }
 
-
 .elevate-your-business, .our-mission, .vision-into-reality {
-    flex-direction: column; /* Image on the right side */
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
@@ -42,14 +47,13 @@
     box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     margin-right: 80px;
-    background-color: #fff; /* Optional: Add a background color for the sections */
+    background-color: #fff;
 }
 
 .elevate-your-business img, .our-mission img, .vision-into-reality img {
-    width: 80px; /* Adjust image size as needed */
+    width: 80px;
     height: auto;
     border-radius: 10px;
-
 }
 
 .elevate-your-business h2, .our-mission h2, .vision-into-reality h2 {
@@ -63,20 +67,60 @@
     width: 650px;
     font-weight: 500;
 }
-/* For screens with a width of 1024px or less */
-@media (max-width: 1280px) {
+
+/* Responsive styles */
+
+@media (max-width: 1400px) {
     .internship-banner img {
-        width: 100%; /* Make image responsive */
-        height: auto;
+        width: 500px;
     }
 
     .internship-ctn {
-        width: 100%;
-        padding: 20px;
+        width: 500px;
     }
 
     .internship-ctn h2 {
+        width: 500px;
         font-size: 28px;
+    }
+
+    .elevate-your-business p, .our-mission p, .vision-into-reality p {
+        width: 600px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .internship-banner img {
+        width: 480px;
+    }
+
+    .internship-ctn {
+        width: 480px;
+    }
+
+    .internship-ctn h2 {
+        width: 480px;
+        font-size: 26px;
+    }
+
+    .elevate-your-business p, .our-mission p, .vision-into-reality p {
+        width: 550px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .internship-banner img {
+        width: 450px;
+    }
+
+    .internship-ctn {
+        width: 450px;
+    }
+
+    .internship-ctn h2 {
+        width: 450px;
+        font-size: 24px;
     }
 
     .internship-ctn p {
@@ -88,125 +132,132 @@
     }
 
     .elevate-your-business p, .our-mission p, .vision-into-reality p {
-        width: 100%;
-        font-size: 16px;
+        width: 500px;
+        font-size: 15px;
     }
 }
 
 @media (max-width: 1024px) {
     .internship-banner img {
-        width: 100%; /* Make image responsive */
-        height: auto;
+        width: 400px;
     }
 
     .internship-ctn {
-        width: 100%;
-        padding: 20px;
+        width: 400px;
+        padding: 15px;
     }
 
     .internship-ctn h2 {
-        font-size: 28px;
-    }
-
-    .internship-ctn p {
-        font-size: 16px;
-    }
-
-    .elevate-your-business img, .our-mission img, .vision-into-reality img {
-        width: 70px;
-    }
-
-    .elevate-your-business p, .our-mission p, .vision-into-reality p {
-        width: 100%;
-        font-size: 16px;
-    }
-}
-
-/* For screens with a width of 800px or less */
-@media (max-width: 800px) {
-    .content {
-        flex-direction: column; /* Stack content vertically */
-    }
-
-    .internship-banner {
-        align-items: flex-start; /* Align content to the left */
-        padding: 0 20px;
-    }
-
-    .internship-ctn h2 {
-        font-size: 24px;
-        text-align: center;
+        width: 400px;
+        font-size: 22px;
     }
 
     .internship-ctn p {
         font-size: 15px;
-        text-align: center;
     }
 
     .elevate-your-business, .our-mission, .vision-into-reality {
-        width: 100%;
-        margin-right: 0;
-        padding: 20px;
-    }
-
-    .elevate-your-business img, .our-mission img, .vision-into-reality img {
-        width: 60px;
+        margin-right: 40px;
     }
 
     .elevate-your-business p, .our-mission p, .vision-into-reality p {
-        font-size: 15px;
+        width: 400px;
+        font-size: 14px;
     }
 }
 
-/* For screens with a width of 500px or less */
-@media (max-width: 500px) {
+@media (max-width: 900px) {
+    .content {
+        flex-direction: column;
+    }
+
     .internship-banner {
-        align-items: center; /* Center the content */
-        padding: 0 10px;
+        align-items: center;
     }
 
     .internship-banner img {
         width: 80%;
-        height: auto;
+    }
+
+    .internship-ctn {
+        width: 80%;
+        align-items: center;
     }
 
     .internship-ctn h2 {
-        font-size: 18px;
-        width: 300px;
-        text-align: center;
-    }
-
-    .internship-ctn p {
-        font-size: 16px;
-        width: 300px;
+        width: 100%;
         text-align: center;
     }
 
     .elevate-your-business, .our-mission, .vision-into-reality {
-        flex-direction: column; /* Image on the right side */
-        justify-content: space-between;
-        align-items: center;
-        gap: 10px;
-        padding: 5px;
-        width: 300px;
-        border-radius: 10px;
-        box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
-        margin-bottom: 30px;
-        margin-left: 50px;
-        background-color: #fff; /* Optional: Add a background color for the sections */
+        width: 80%;
+        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
-    
+
+    .elevate-your-business p, .our-mission p, .vision-into-reality p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .internship-banner img {
+        width: 90%;
+    }
+
+    .internship-ctn {
+        width: 90%;
+    }
+
+    .internship-ctn h2 {
+        font-size: 20px;
+    }
+
+    .elevate-your-business, .our-mission, .vision-into-reality {
+        width: 90%;
+    }
+
     .elevate-your-business h2, .our-mission h2, .vision-into-reality h2 {
-        margin-bottom: 10px;
         font-size: 22px;
-        color: #004aad;
     }
+}
+
+@media (max-width: 500px) {
+    .internship-banner img {
+        width: 95%;
+    }
+
+    .internship-ctn {
+        width: 95%;
+    }
+
+    .internship-ctn h2 {
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .internship-ctn p {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .elevate-your-business, .our-mission, .vision-into-reality {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+
     .elevate-your-business img, .our-mission img, .vision-into-reality img {
         width: 50px;
     }
 
+    .elevate-your-business h2, .our-mission h2, .vision-into-reality h2 {
+        font-size: 20px;
+    }
+
     .elevate-your-business p, .our-mission p, .vision-into-reality p {
-        font-size: 14px;
-        width: 100%;
+        font-size: 13px;
     }
 }

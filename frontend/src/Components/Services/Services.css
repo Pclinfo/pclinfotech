@@ -188,6 +188,31 @@
     width: 250px;
 }
 /* For screens 1024px and below */
+@media screen and (max-width: 1380px) {
+    .services-web-container, 
+    .services-host-container {
+        gap: 40px; /* Reduce gap between cards */
+    }
+
+    .innovative-technology-solutions,
+    .customized-it-strategies,
+    .scalable-growth-solutions,
+    .strategic-partnership,
+    .robust-security-measures,
+    .commitment-to-excellence,
+    .agile-and-adaptive {
+        width: 280px; /* Slightly smaller cards */
+        height: 400px;
+    }
+
+    .services h2 {
+        font-size: 20px;
+    }
+    .services p {
+        font-size: 16px;
+    }
+    
+}
 @media screen and (max-width: 1280px) {
     .services-web-container, 
     .services-host-container {
@@ -210,6 +235,7 @@
     }
     .services p {
         font-size: 16px;
+        width: 200px;
     }
     
 }
@@ -226,12 +252,41 @@
     .robust-security-measures,
     .commitment-to-excellence,
     .agile-and-adaptive {
-        width: 240px; /* Slightly smaller cards */
+        width: 220px; /* Slightly smaller cards */
         height: 360px;
     }
 
     .services h2 {
         font-size: 22px;
+    }
+    .services p {
+        font-size: 14px;
+
+    }
+    
+}
+@media screen and (max-width: 980px) {
+    .services-web-container,
+    .services-host-container {
+        flex-direction: column; /* Stack the cards vertically */
+        gap: 30px; /* Reduce gap between stacked cards */
+    }
+
+    .innovative-technology-solutions,
+    .customized-it-strategies,
+    .scalable-growth-solutions,
+    .strategic-partnership,
+    .robust-security-measures,
+    .commitment-to-excellence,
+    .agile-and-adaptive {
+        width: 100%; /* Full width cards */
+        max-width: 600px; /* Max width for larger screens */
+        height: auto; /* Adjust height for responsiveness */
+    }
+
+    .services h2 {
+        font-size: 20px;
+        text-align: center;
     }
 }
 
@@ -252,7 +307,7 @@
     .agile-and-adaptive {
         width: 100%; /* Full width cards */
         max-width: 600px; /* Max width for larger screens */
-        height: auto; /* Adjust height for responsiveness */
+        height: 350px; /* Adjust height for responsiveness */
     }
 
     .services h2 {

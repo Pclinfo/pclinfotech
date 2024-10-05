@@ -77,8 +77,8 @@
     border-color: white;
     background-color: white;
     border-radius: 9px;
-    margin-left: 300px;
-    margin-top: -60px;
+    margin-left: 450px;
+    margin-top: -30px;
     gap: 5px;
     
 }
@@ -110,7 +110,7 @@
     gap: 30px; /* Space between grid items */
     max-width: 1200px; /* Set max width for the container */
     margin: 0 auto; /* Center the container */
-    padding: 40px 20px; /* Add padding */ /* Align text to the left */
+    padding: 60px 20px; /* Add padding */ /* Align text to the left */
     justify-content: center;
     margin-bottom: 100px;
 
@@ -120,6 +120,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 30px;
+    margin-top: 40px;
 }
 .tp-tp-subcard {
     font-size: 1.5rem;

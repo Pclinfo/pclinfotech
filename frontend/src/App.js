@@ -40,6 +40,8 @@ import HostingServerPrice from './Pages/HostingServerPrice';
 import ConsultingPrice from './Pages/ConsultingPrice';
 import ContactInfo from './Pages/ContactInfo';
 import LoginSignup from './Pages/LoginSignup';
+import TermsConditions from './Pages/TermsConditions';
+import Privacypolicy from './Pages/Privacypolicy';
 
 
 
@@ -90,6 +92,8 @@ function App() {
           <Route path='/consulting' element={< ConsultingPrice />} />
           <Route path='/contact-info' element={< ContactInfo />} />
           <Route path='/loginsignup' element={< LoginSignup/>} />
+          <Route path='/terms-and-conditions' element={< TermsConditions/>} />
+          <Route path='/privacy-policy' element={< Privacypolicy/>} />
         </Routes>
       </div>
     </Router>

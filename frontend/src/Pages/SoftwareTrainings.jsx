@@ -7,7 +7,6 @@ import full_stack_developer from './Assets/full_stack_developer.png'
 import ui_ux_designer from './Assets/ui_ux_designer.png'
 import digital_marketing_1 from './Assets/digital_marketing_1.png'
 import business_analyst from './Assets/business_analyst.png'
-import hr_intern from './Assets/hr_intern.png'
 import logo from './Assets/logo.png'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -81,14 +80,6 @@ const SoftwareTrainings = () => {
         <div className="tp-tp-subcard-img-4">
           <img src={business_analyst} alt="" />
         </div>
-        <div className="tp-tp-subcard-5">
-          <h3>HR Intern</h3>
-          <p>PCL Infotech is glad to offer an immersion human resource internship program to future human resource professionals interested in people management and organizational development. We offer hands-on experience in key HR functions, such as recruitment, employee engagement, performance management, and many more. Working closely with our experienced team of HR professionals, as an intern you can gain full knowledge of modern HR practices: from screening and interviewing candidates; onboarding and training through to preparing you for a successful HR career. We also pay attention to the needs of employees and culture in the organization as a whole, opening windows into how HR propels productivity and growth. The HR professionals will be mentoring you on developing critical skills on conflict resolution, talent acquisition strategies, HR compliance, and employee retention techniques during your internship. Further, interns will also learn more about operating in real-world HR tasks during this internship: HR technology, labor laws, and leadership development
-          </p>
-        </div>
-        <div className="tp-tp-subcard-img-5">
-          <img src={hr_intern} alt="" />
-        </div>
       </div>
       <div className='footer'>
         <div className="footer-container">
@@ -151,7 +142,7 @@ const SoftwareTrainings = () => {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2024 PCL Infotech. All rights reserved. <Link to="/terms">Terms & Conditions</Link> · <Link to="/privacy">Privacy Policy</Link></p>
+          <p>© 2024 PCL Infotech. All rights reserved. <Link to="/terms-and-conditions">Terms & Conditions</Link> · <Link to="/privacy-policy">Privacy Policy</Link></p>
         </div>
       </div>
     </div>

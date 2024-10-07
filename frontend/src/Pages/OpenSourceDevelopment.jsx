@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './CSS/OpenSourceDevelopment.css'
 import web_dev_img_1 from './Assets/web_dev_img_1.png'
 import web_opn_img_2 from './Assets/web_opn_img_2.png'
@@ -25,6 +25,7 @@ import mysql_logo from './Assets/mysql_logo.png'
 import postsql_logo from './Assets/postsql_logo.png'
 import logo from './Assets/logo.png'
 import { Link } from 'react-router-dom';
+import Modal from 'react-modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
@@ -32,6 +33,56 @@ import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg
 
 
 const OpenSourceDevelopment = () => {
+
+
+
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    phoneNumber: '',
+    message: ''
+  });
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch('http://localhost:4000/submitForm', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      const data = await response.json();
+      console.log(data);
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phoneNumber: '',
+        message: ''
+      });
+      setIsSubmitted(true);
+      closeModal();
+      setTimeout(() => {
+        setIsSubmitted(false);
+      }, 5000);
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
+  };
 
 
   const handleMenuItemClick = (menuItem) => {
@@ -50,8 +101,32 @@ const OpenSourceDevelopment = () => {
             development to deliver robust and innovative websites, applications, and e-commerce
             platforms. We create tailored solutions that meet your unique business needs while keeping
             development costs manageable.</p>
-          <button>Build my Open source development </button>
+          <button onClick={openModal}>Build my Open source development </button>
         </div>
+        <Modal isOpen={isModalOpen} onRequestClose={closeModal} className="modal-content">
+        <div className="web-contact-form">
+          <form onSubmit={handleSubmit}>
+            <div className="form-group">
+              <label>First Name</label>
+              <input type="text" name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} required />
+              <label>Last Name</label>
+              <input type="text" name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
+            </div>
+            <div className="form-group">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
+              <label>Phone Number</label>
+              <input type="text" name="phoneNumber" placeholder="Phone Number" value={formData.phoneNumber} onChange={handleChange} />
+            </div>
+            <div className="form-group">
+              <label>Message</label>
+              <textarea name="message" placeholder="Write your message.." value={formData.message} onChange={handleChange} required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+            {isSubmitted && <p>Thank you! Your form has been submitted.</p>}
+          </form>
+        </div>
+      </Modal>
         <div className="web-opn-right">
           <img src={web_dev_img_1} alt="" />
           <img src={web_opn_img_2} alt="" />
@@ -133,7 +208,7 @@ const OpenSourceDevelopment = () => {
           </div>
         </div>
         <div className="web-opn-button">
-          <button>CONTACT US</button>
+          <button onClick={openModal}>CONTACT US</button>
         </div>
       </div>
       <div className="web-opn-4">

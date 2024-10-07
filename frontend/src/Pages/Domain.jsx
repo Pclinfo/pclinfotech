@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './CSS/Domain.css'
 import hs_domain_img_2 from './Assets/hs_domain_img_2.png'
 import domain_name_consultation from './Assets/domain_name_consultation.png'
@@ -9,11 +9,62 @@ import domain_renewal_management from './Assets/domain_renewal_management.png'
 import subdomains_and_customization from './Assets/subdomains_and_customization.png'
 import logo from './Assets/logo.png'
 import { Link } from 'react-router-dom';
+import Modal from 'react-modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 
 const Domain = () => {
+
+
+
+    
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    phoneNumber: '',
+    message: ''
+  });
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch('http://localhost:4000/submitForm', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      const data = await response.json();
+      console.log(data);
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phoneNumber: '',
+        message: ''
+      });
+      setIsSubmitted(true);
+      closeModal();
+      setTimeout(() => {
+        setIsSubmitted(false);
+      }, 5000);
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
+  };
 
 
   const handleMenuItemClick = (menuItem) => {
@@ -28,8 +79,32 @@ const Domain = () => {
         <div className="hs-domain-title-1">
           <h2>Domain Registration</h2>
           <p>Your domain name is the first step toward establishing a strong online identity. It’s more than just your website’s address—it’s the cornerstone of your brand's online presence. At PCL Infotech, we offer comprehensive domain registration services that help you secure a domain name that reflects your brand, resonates with your target audience, and aligns with your business goals.        </p>
-          <button>View Pricing</button>
+          <button onClick={openModal}>View Pricing</button>
         </div>
+        <Modal isOpen={isModalOpen} onRequestClose={closeModal} className="modal-content">
+        <div className="web-contact-form">
+          <form onSubmit={handleSubmit}>
+            <div className="form-group">
+              <label>First Name</label>
+              <input type="text" name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} required />
+              <label>Last Name</label>
+              <input type="text" name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
+            </div>
+            <div className="form-group">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
+              <label>Phone Number</label>
+              <input type="text" name="phoneNumber" placeholder="Phone Number" value={formData.phoneNumber} onChange={handleChange} />
+            </div>
+            <div className="form-group">
+              <label>Message</label>
+              <textarea name="message" placeholder="Write your message.." value={formData.message} onChange={handleChange} required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+            {isSubmitted && <p>Thank you! Your form has been submitted.</p>}
+          </form>
+        </div>
+      </Modal>
         <div className="hs-domain-img-1">
           <img src={hs_domain_img_2} alt="" />
         </div>
@@ -88,7 +163,7 @@ const Domain = () => {
           </div>
         </div>
         <div className="hs-domain-button-2">
-          <button >CONTACT US</button>
+          <button onClick={openModal}>CONTACT US</button>
         </div>
       </div>
       <div className='footer'>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './CSS/DataAnalytics.css'
 import da_cs_img_1 from './Assets/da_cs_img_1.png'
 import process_optimization from './Assets/process_optimization.png'
@@ -42,6 +42,7 @@ import strategy_development from './Assets/strategy_development.png'
 import continuous_improvement from './Assets/continuous_improvement.png'
 import logo from './Assets/logo.png'
 import { Link } from 'react-router-dom';
+import Modal from 'react-modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
@@ -50,6 +51,57 @@ import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg
 
 
 const DataAnalytics = () => {
+
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [formData, setFormData] = useState({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phoneNumber: '',
+        message: ''
+    });
+    const [isSubmitted, setIsSubmitted] = useState(false);
+
+    const openModal = () => setIsModalOpen(true);
+    const closeModal = () => setIsModalOpen(false);
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({ ...formData, [name]: value });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+            const response = await fetch('http://localhost:4000/submitForm', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+            const data = await response.json();
+            console.log(data);
+            setFormData({
+                firstName: '',
+                lastName: '',
+                email: '',
+                phoneNumber: '',
+                message: ''
+            });
+            setIsSubmitted(true);
+            closeModal();
+            setTimeout(() => {
+                setIsSubmitted(false);
+            }, 5000);
+        } catch (error) {
+            console.error('Error submitting form:', error);
+        }
+    };
+
+
+
 
     const handleMenuItemClick = (menuItem) => {
         // You can add any additional logic here if needed
@@ -64,12 +116,36 @@ const DataAnalytics = () => {
                 <p>At PCL Infotech, our consulting services are tailored to help you optimize your business operations, harness the power of technology, and make informed decisions that drive growth. Our team of experts provides strategic insights and practical solutions to propel your business forward.
                 </p>
                 <div className="da-cs-button-1">
-                    <button>Get Quote Now</button>
+                    <button onClick={openModal}>Get Quote Now</button>
                     <button>Learn More</button>
                 </div>
                 <h3>Industry</h3>
                 <p>The consulting services industry provides expert advice and strategic guidance to businesses across various sectors to help improve their performance, efficiency, and profitability. Consulting firms typically offer specialized knowledge in areas such as management, finance, operations, IT, human resources, and marketing. Their services range from solving specific business problems to assisting with large-scale organizational transformations.</p>
             </div>
+            <Modal isOpen={isModalOpen} onRequestClose={closeModal} className="modal-content">
+                <div className="web-contact-form">
+                    <form onSubmit={handleSubmit}>
+                        <div className="form-group">
+                            <label>First Name</label>
+                            <input type="text" name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} required />
+                            <label>Last Name</label>
+                            <input type="text" name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
+                        </div>
+                        <div className="form-group">
+                            <label>Email</label>
+                            <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
+                            <label>Phone Number</label>
+                            <input type="text" name="phoneNumber" placeholder="Phone Number" value={formData.phoneNumber} onChange={handleChange} />
+                        </div>
+                        <div className="form-group">
+                            <label>Message</label>
+                            <textarea name="message" placeholder="Write your message.." value={formData.message} onChange={handleChange} required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                        {isSubmitted && <p>Thank you! Your form has been submitted.</p>}
+                    </form>
+                </div>
+            </Modal>
             <div className="da-cs-subtitle-1">
                 <h2>Management Consulting Services</h2>
                 <p>In today’s rapidly evolving business landscape, organizations face a multitude of challenges, from operational inefficiencies and market disruptions to navigating complex regulatory environments. Our Management Consulting Services provide strategic insights and actionable solutions tailored to your business needs, enabling you to achieve sustainable growth and competitive advantage.</p>
@@ -80,7 +156,7 @@ const DataAnalytics = () => {
                     <p>Streamline and enhance your business operations with our expert consulting services. We work closely with you to analyze your current processes, identify inefficiencies, and develop customized strategies to boost productivity and reduce costs.
                         Our experts work closely with you to understand your business challenges and develop solutions that deliver measurable results.
                     </p>
-                    <button>Learn More</button>
+                    <button onClick={openModal}>Learn More</button>
                 </div>
                 <div className="da-cs-ctn-img-1">
                     <img src={da_cs_img_1} alt="" />
@@ -120,7 +196,7 @@ const DataAnalytics = () => {
                 <div className="da-cs-ctn-title-3">
                     <h3>Customer & Marketing</h3>
                     <p>Enhance your customer experience and marketing efforts with our consulting services. We provide insights and strategies that help you attract, engage, and retain customers. From customer journey mapping to marketing automation, we help you create a seamless and personalized experience that drives loyalty and growth.</p>
-                    <button>Learn More</button>
+                    <button onClick={openModal}>Learn More</button>
                 </div>
                 <div className="da-cs-ctn-img-2">
                     <img src={da_cs_img_2} alt="" />
@@ -200,7 +276,7 @@ const DataAnalytics = () => {
                 <div className="da-cs-ctn-title-4">
                     <h3>Digital Transformation</h3>
                     <p>Help your business evolve by integrating cutting-edge digital technologies into all areas of operation, fundamentally changing how you deliver value to your customers.</p>
-                    <button>Learn More</button>
+                    <button onClick={openModal}>Learn More</button>
                 </div>
                 <div className="da-cs-ctn-img-4">
                     <img src={da_cs_img_4} alt="" />
@@ -240,7 +316,7 @@ const DataAnalytics = () => {
                 <div className="da-cs-ctn-title-5">
                     <h3>Human Capital & Workforce Management</h3>
                     <p>Empower your workforce and improve organizational performance with our human capital consulting. We help you design and implement strategies that enhance employee engagement, talent acquisition, and overall productivity.</p>
-                    <button>Learn More</button>
+                    <button onClick={openModal}>Learn More</button>
                 </div>
                 <div className="da-cs-ctn-img-5">
                     <img src={da_cs_img_5} alt="" />
@@ -280,7 +356,7 @@ const DataAnalytics = () => {
                 <div className="da-cs-ctn-title-6">
                     <h3>Risk & Compliance Management</h3>
                     <p>Protect your business from regulatory challenges and operational risks with our comprehensive risk management and compliance consulting service</p>
-                    <button>Learn More</button>
+                    <button onClick={openModal}>Learn More</button>
                 </div>
                 <div className="da-cs-ctn-img-6">
                     <img src={da_cs_img_7} alt="" />
@@ -320,7 +396,7 @@ const DataAnalytics = () => {
                 <div className="da-cs-ctn-title-13">
                     <h3>IT Governance & Strategy</h3>
                     <p>Ensure that your IT investments deliver maximum value by aligning them with your long-term business objectives.</p>
-                    <button>Learn More</button>
+                    <button onClick={openModal}>Learn More</button>
                 </div>
                 <div className="da-cs-ctn-img-7">
                     <img src={da_cs_img_8} alt="" />
@@ -359,7 +435,7 @@ const DataAnalytics = () => {
                     <div className="da-cs-ctn-title-14">
                         <h3>Strategy & Analytics</h3>
                         <p>In today's data-driven world, leveraging strategy and analytics is crucial for making informed business decisions. At PCL Infotech, our Strategy & Analytics consulting services are designed to help you harness the power of your data to drive strategic decisions and achieve your business objectives. Here’s how we support you</p>
-                        <button>Learn More</button>
+                        <button onClick={openModal}>Learn More</button>
                     </div>
                     <div className="da-cs-ctn-img-8">
                         <img src={da_cs_img_3} alt="" />
@@ -443,69 +519,69 @@ const DataAnalytics = () => {
                 </div>
             </div>
             <div className='footer'>
-            <div className="footer-container">
-                <div className="footer-logo-section">
-                    <div className="footer-logo">
-                        <Link to="/" onClick={() => handleMenuItemClick("Home")}>
-                            <img src={logo} alt="Logo" />
-                        </Link>
-                        <p>IT Solution</p>
+                <div className="footer-container">
+                    <div className="footer-logo-section">
+                        <div className="footer-logo">
+                            <Link to="/" onClick={() => handleMenuItemClick("Home")}>
+                                <img src={logo} alt="Logo" />
+                            </Link>
+                            <p>IT Solution</p>
+                        </div>
+                        <p>INFOTECH PRIVATE LIMITED</p>
+                        <p></p>
+                        <div className="footer-social-icons">
+                            <a href="https://www.facebook.com/people/PCL-Infotech-Pvt-Ltd/61565409011377/">
+                                <FontAwesomeIcon icon={faFacebook} />
+                            </a>
+                            <a href="https://www.instagram.com/pclinfotech/">
+                                <FontAwesomeIcon icon={faInstagram} />
+                            </a>
+                            <a href="https://x.com/i/flow/login?redirect_after_login=%2Fpcl_infotech">
+                                <FontAwesomeIcon icon={faTwitter} />
+                            </a>
+                        </div>
                     </div>
-                    <p>INFOTECH PRIVATE LIMITED</p>
-                    <p></p>
-                    <div className="footer-social-icons">
-                        <a href="https://www.facebook.com/people/PCL-Infotech-Pvt-Ltd/61565409011377/">
-                            <FontAwesomeIcon icon={faFacebook} />
-                        </a>
-                        <a href="https://www.instagram.com/pclinfotech/">
-                            <FontAwesomeIcon icon={faInstagram} />
-                        </a>
-                        <a href="https://x.com/i/flow/login?redirect_after_login=%2Fpcl_infotech">
-                            <FontAwesomeIcon icon={faTwitter} />
-                        </a>
+                    <div className="footer-links">
+                        <div className="footer-column">
+                            <h4>About Us</h4>
+                            <ul>
+                                <li><Link to="/Home">Home</Link></li>
+                                <li><Link to="/contact-info">Contact Us</Link></li>
+                                <li><Link to="/job-portal">Careers</Link></li>
+                            </ul>
+                        </div>
+                        <div className="footer-column">
+                            <h4>Our Services</h4>
+                            <ul>
+                                <li><Link to="/web-development">Web Development</Link></li>
+                                <li><Link to="/web-design">Web Design</Link></li>
+                                <li><Link to="/search-engine-optimization-seo">Marketing</Link></li>
+                                <li><Link to="/software-products">Software Products</Link></li>
+                            </ul>
+                        </div>
+                        <div className="footer-column">
+                            <h4>Other Services</h4>
+                            <ul>
+                                <li><Link to="/domain-registration">Domain Registration</Link></li>
+                                <li><Link to="/vps-hosting">VPS hosting</Link></li>
+                                <li><Link to="/data-analytics">Management Consultant</Link></li>
+                            </ul>
+                        </div>
+                        <div className="footer-column">
+                            <h4>Contact Us</h4>
+                            <ul>
+                                <li><i className="fas fa-envelope"></i> info@pclinfotech.com</li>
+                                <li><i className="fas fa-phone"></i> +91 72000 - 74253</li>
+                                <li><i className="fas fa-map-marker-alt"></i> No.2/ 156, 1st Floor, Poonamalle-Avadi Road,<br />
+                                    Senneerkuppam, Chennai-56</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div className="footer-links">
-                    <div className="footer-column">
-                        <h4>About Us</h4>
-                        <ul>
-                            <li><Link to="/Home">Home</Link></li>
-                            <li><Link to="/contact-info">Contact Us</Link></li>
-                            <li><Link to="/job-portal">Careers</Link></li>
-                        </ul>
-                    </div>
-                    <div className="footer-column">
-                        <h4>Our Services</h4>
-                        <ul>
-                            <li><Link to="/web-development">Web Development</Link></li>
-                            <li><Link to="/web-design">Web Design</Link></li>
-                            <li><Link to="/search-engine-optimization-seo">Marketing</Link></li>
-                            <li><Link to="/software-products">Software Products</Link></li>
-                        </ul>
-                    </div>
-                    <div className="footer-column">
-                        <h4>Other Services</h4>
-                        <ul>
-                            <li><Link to="/domain-registration">Domain Registration</Link></li>
-                            <li><Link to="/vps-hosting">VPS hosting</Link></li>
-                            <li><Link to="/data-analytics">Management Consultant</Link></li>
-                        </ul>
-                    </div>
-                    <div className="footer-column">
-                        <h4>Contact Us</h4>
-                        <ul>
-                            <li><i className="fas fa-envelope"></i> info@pclinfotech.com</li>
-                            <li><i className="fas fa-phone"></i> +91 72000 - 74253</li>
-                            <li><i className="fas fa-map-marker-alt"></i> No.2/ 156, 1st Floor, Poonamalle-Avadi Road,<br />
-                            Senneerkuppam, Chennai-56</li>
-                        </ul>
-                    </div>
+                <div className="footer-bottom">
+                    <p>© 2024 PCL Infotech. All rights reserved. <Link to="/terms-and-conditions">Terms & Conditions</Link> · <Link to="/privacy-policy">Privacy Policy</Link></p>
                 </div>
             </div>
-            <div className="footer-bottom">
-                <p>© 2024 PCL Infotech. All rights reserved. <Link to="/terms-and-conditions">Terms & Conditions</Link> · <Link to="/privacy-policy">Privacy Policy</Link></p>
-            </div>
-        </div>
         </div>
     )
 }

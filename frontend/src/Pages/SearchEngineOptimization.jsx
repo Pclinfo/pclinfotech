@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './CSS/SearchEngineOptimization.css'
 import dtg_seo_img_2 from './Assets/dtg_seo_img_2.png'
 import dtg_seo_img_3 from './Assets/dtg_seo_img_3.png'
@@ -28,6 +28,7 @@ import quake_logo from './Assets/quake_logo.png'
 import google_my_business_logo from './Assets/google_my_business_logo.png'
 import logo from './Assets/logo.png'
 import { Link } from 'react-router-dom';
+import Modal from 'react-modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
@@ -35,6 +36,54 @@ import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg
 
 
 const SearchEngineOptimization = () => {
+
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    phoneNumber: '',
+    message: ''
+  });
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch('http://localhost:4000/submitForm', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      const data = await response.json();
+      console.log(data);
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phoneNumber: '',
+        message: ''
+      });
+      setIsSubmitted(true);
+      closeModal();
+      setTimeout(() => {
+        setIsSubmitted(false);
+      }, 5000);
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
+  };
 
 
   const handleMenuItemClick = (menuItem) => {
@@ -53,9 +102,33 @@ const SearchEngineOptimization = () => {
         <img src={dtg_seo_img_3} alt="" />
       </div>
       <div className="dtg-seo-title-2">
-        <button>Build my Search Engine Optimization (SEO)
+        <button onClick={openModal}>Build my Search Engine Optimization (SEO)
         </button>
       </div>
+      <Modal isOpen={isModalOpen} onRequestClose={closeModal} className="modal-content">
+        <div className="web-contact-form">
+          <form onSubmit={handleSubmit}>
+            <div className="form-group">
+              <label>First Name</label>
+              <input type="text" name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} required />
+              <label>Last Name</label>
+              <input type="text" name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
+            </div>
+            <div className="form-group">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
+              <label>Phone Number</label>
+              <input type="text" name="phoneNumber" placeholder="Phone Number" value={formData.phoneNumber} onChange={handleChange} />
+            </div>
+            <div className="form-group">
+              <label>Message</label>
+              <textarea name="message" placeholder="Write your message.." value={formData.message} onChange={handleChange} required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+            {isSubmitted && <p>Thank you! Your form has been submitted.</p>}
+          </form>
+        </div>
+      </Modal>
       <div className="dtg-seo-title-3">
         <p>We take a comprehensive approach to SEO, combining in-depth keyword research, content optimization, and technical SEO best practices to drive organic traffic and enhance your search engine performance.
         </p>
@@ -120,7 +193,7 @@ const SearchEngineOptimization = () => {
           </div>
         </div>
         <div className="dtg-seo-button-1">
-          <button>CONTACT US</button>
+          <button onClick={openModal}>CONTACT US</button>
         </div>
       </div>
       <div className="dtg-seo-title-6">
@@ -190,7 +263,7 @@ const SearchEngineOptimization = () => {
           </div>
         </div>
         <div className="dtg-seo-button-2">
-          <button>CONTACT US</button>
+          <button onClick={openModal}>CONTACT US</button>
         </div>
       </div>
       <div className="dtg-seo-3">

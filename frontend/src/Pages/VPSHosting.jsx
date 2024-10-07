@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './CSS/VPSHosting.css'
 import hs_vps_img_2 from './Assets/hs_vps_img_2.png'
 import dedicated_resources from './Assets/dedicated_resources.png'
@@ -12,6 +12,7 @@ import managed_unmanaged from './Assets/managed_unmanaged.png'
 import support from './Assets/support.png'
 import logo from './Assets/logo.png'
 import { Link } from 'react-router-dom';
+import Modal from 'react-modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
@@ -19,9 +20,60 @@ import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg
 
 const VPSHosting = () => {
 
+
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    phoneNumber: '',
+    message: ''
+  });
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch('http://localhost:4000/submitForm', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      const data = await response.json();
+      console.log(data);
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phoneNumber: '',
+        message: ''
+      });
+      setIsSubmitted(true);
+      closeModal();
+      setTimeout(() => {
+        setIsSubmitted(false);
+      }, 5000);
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
+  };
+
   const handleMenuItemClick = (menuItem) => {
     // You can add any additional logic here if needed
 };
+
+
 
 
 
@@ -31,8 +83,32 @@ const VPSHosting = () => {
         <div className="hs-vps-title-1">
           <h2>VPS Hosting</h2>
           <p>For businesses that demand more power, flexibility, and control over their hosting environment, Virtual Private Server (VPS) hosting is the perfect solution. At PCL Infotech, our VPS hosting services offer a scalable, secure, and highly customizable hosting environment tailored to meet your unique needs.          </p>
-          <button>View Pricing</button>
+          <button onClick={openModal}>View Pricing</button>
         </div>
+        <Modal isOpen={isModalOpen} onRequestClose={closeModal} className="modal-content">
+        <div className="web-contact-form">
+          <form onSubmit={handleSubmit}>
+            <div className="form-group">
+              <label>First Name</label>
+              <input type="text" name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} required />
+              <label>Last Name</label>
+              <input type="text" name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
+            </div>
+            <div className="form-group">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
+              <label>Phone Number</label>
+              <input type="text" name="phoneNumber" placeholder="Phone Number" value={formData.phoneNumber} onChange={handleChange} />
+            </div>
+            <div className="form-group">
+              <label>Message</label>
+              <textarea name="message" placeholder="Write your message.." value={formData.message} onChange={handleChange} required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+            {isSubmitted && <p>Thank you! Your form has been submitted.</p>}
+          </form>
+        </div>
+      </Modal>
         <div className="hs-domain-img-1">
           <img src={hs_vps_img_2} alt="" />
         </div>
@@ -113,7 +189,7 @@ const VPSHosting = () => {
           </div>
         </div>
         <div className="hs-vps-button-2">
-          <button>CONTACT US</button>
+          <button onClick={openModal}>CONTACT US</button>
         </div>
       </div>
       <div className='footer'>

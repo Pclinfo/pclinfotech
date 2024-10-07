@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './CSS/JobPortal.css'
 import cr_jp_img_1 from './Assets/cr_jp_img_1.png'
 import cr_jp_img_2 from './Assets/cr_jp_img_2.png'
@@ -11,6 +11,7 @@ import partnerships from './Assets/partnerships.png'
 import competitive_compensation from './Assets/competitive_compensation.png'
 import logo from './Assets/logo.png'
 import { Link } from 'react-router-dom';
+import Modal from 'react-modal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
@@ -18,6 +19,54 @@ import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg
 
 
 const JobPortal = () => {
+
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    phoneNumber: '',
+    message: ''
+  });
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch('http://localhost:4000/submitForm', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      const data = await response.json();
+      console.log(data);
+      setFormData({
+        firstName: '',
+        lastName: '',
+        email: '',
+        phoneNumber: '',
+        message: ''
+      });
+      setIsSubmitted(true);
+      closeModal();
+      setTimeout(() => {
+        setIsSubmitted(false);
+      }, 5000);
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
+  };
 
 
  
@@ -57,6 +106,30 @@ const JobPortal = () => {
             <p>At PCL Infotech, diversity fuels innovation. We foster an inclusive, respectful environment where unique perspectives are valued and creativity thrives.</p>
           </div>
         </div>
+        <Modal isOpen={isModalOpen} onRequestClose={closeModal} className="modal-content">
+        <div className="web-contact-form">
+          <form onSubmit={handleSubmit}>
+            <div className="form-group">
+              <label>First Name</label>
+              <input type="text" name="firstName" placeholder="First Name" value={formData.firstName} onChange={handleChange} required />
+              <label>Last Name</label>
+              <input type="text" name="lastName" placeholder="Last Name" value={formData.lastName} onChange={handleChange} required />
+            </div>
+            <div className="form-group">
+              <label>Email</label>
+              <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
+              <label>Phone Number</label>
+              <input type="text" name="phoneNumber" placeholder="Phone Number" value={formData.phoneNumber} onChange={handleChange} />
+            </div>
+            <div className="form-group">
+              <label>Message</label>
+              <textarea name="message" placeholder="Write your message.." value={formData.message} onChange={handleChange} required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+            {isSubmitted && <p>Thank you! Your form has been submitted.</p>}
+          </form>
+        </div>
+      </Modal>
         <div className="cr-jp-subcard-2">
           <div className="innovation-driven-environment">
             <h3>Innovation-Driven Environment</h3>
@@ -92,7 +165,7 @@ const JobPortal = () => {
             <p>Full-time (Exp- 2+ yrs)</p>
           </div>
           <p>We are  seeking an experienced and skilled PHP Laravel 8 Developer to join our team in Chennai. The ideal candidate should have a strong background in PHP development, specifically with Laravel 8, and experience building web applications. This is a great opportunity to work in a dynamic IT solutions company and contribute to the development of innovative projects</p>
-          <button>Apply now</button>
+          <button onClick={openModal}>Apply now</button>
         </div>
         <div className="cr-jb-jcard-2">
           <div className="cr-jp-jcard-title-2">
@@ -100,7 +173,7 @@ const JobPortal = () => {
             <p>Full-time (Exp- 2+ yrs)</p>
           </div>
           <p>we are seeking a highly motivated and skilled MBA Finance professional to join our team in Chennai. The ideal candidate should possess strong knowledge of taxation and audit processes. This role offers a great opportunity to work with an innovative company in the financial and investment sector.</p>
-          <button>Apply now</button>
+          <button onClick={openModal}>Apply now</button>
         </div>
       </div>
       <div className="cr-jp-title-7">
